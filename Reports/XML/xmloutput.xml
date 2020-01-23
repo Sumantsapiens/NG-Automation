@@ -1,68 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="1" tests="5" time="47.607">
- <testsuite name="Navigate to Task and Open Task created in above suite" timestamp="2020-01-22T20:55:11" hostname="localhost" time="47.607" errors="0" tests="5" skipped="0" disabled="0" failures="1">
-  <testcase classname="Navigate to Task and Open Task created in above suite" name="should Click on Task Tab" time="22.341" />
-  <testcase classname="Navigate to Task and Open Task created in above suite" name="should Select the Task created in previous suite" time="2.307" />
-  <testcase classname="Navigate to Task and Open Task created in above suite" name="should Select decision Link" time="2.28" />
-  <testcase classname="Navigate to Task and Open Task created in above suite" name="Should Click on Decision " time="0.398" />
-  <testcase classname="Navigate to Task and Open Task created in above suite" name="should Create new FT1 from decision screen" time="20.278">
-   <failure type="exception" message="Failed: element not interactable
-  (Session info: chrome=79.0.3945.130)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;INLT2551&apos;, ip: &apos;10.21.32.211&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: driver.version: unknown"><![CDATA[WebDriverError: element not interactable
-  (Session info: chrome=79.0.3945.130)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'INLT2551', ip: '10.21.32.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-    at Object.checkLegacyResponse (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
-    at parseHttpResponse (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-From: Task: WebElement.sendKeys()
-    at thenableWebDriverProxy.schedule (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
-    at WebElement.schedule_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2010:25)
-    at WebElement.sendKeys (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2174:19)
-    at actionFn (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:89:44)
-    at Array.map (<anonymous>)
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:461:65
-    at ManagedPromise.invokeCallback_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27Error
-    at ElementArrayFinder.applyAction_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
-    at ElementArrayFinder.<computed> [as sendKeys] (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
-    at ElementFinder.<computed> [as sendKeys] (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
-    at C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\spec.js:152:39
-    at ManagedPromise.invokeCallback_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
-    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)
-From: Task: Run it("should Create new FT1 from decision screen") in control flow
-    at UserContext.<anonymous> (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
-    at attempt (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
-    at QueueRunner.run (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
-    at QueueRunner.execute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
-    at Spec.queueRunnerFactory (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
-    at Spec.execute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
-    at UserContext.fn (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
-    at attempt (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
-    at QueueRunner.run (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
-    at runNext (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
-From asynchronous test: 
-Error
-    at Suite.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\spec.js:147:5)
-    at addSpecsToSuite (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
-    at Env.describe (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
-    at describe (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
-    at Object.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\spec.js:92:1)
-    at Module._compile (internal/modules/cjs/loader.js:1144:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
-    at Module.load (internal/modules/cjs/loader.js:993:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:892:14)]]>
-   </failure>
-  </testcase>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="48.42">
+ <testsuite name="Navigate to Task and Open Task created in above suite" timestamp="2020-01-23T20:48:26" hostname="localhost" time="43.313" errors="0" tests="6" skipped="0" disabled="0" failures="0">
+  <testcase classname="Navigate to Task and Open Task created in above suite" name="should Click on Task Tab" time="21.944" />
+  <testcase classname="Navigate to Task and Open Task created in above suite" name="should Select the Task created in previous suite" time="2.207" />
+  <testcase classname="Navigate to Task and Open Task created in above suite" name="should Select decision Link" time="2.201" />
+  <testcase classname="Navigate to Task and Open Task created in above suite" name="Should Click on Decision " time="0.323" />
+  <testcase classname="Navigate to Task and Open Task created in above suite" name="should Enter the FTname from DV diagram" time="8.284" />
+  <testcase classname="Navigate to Task and Open Task created in above suite" name="should Create new FT FT2" time="8.353" />
+ </testsuite>
+ <testsuite name="focused specs" timestamp="2020-01-23T20:49:09" hostname="localhost" time="5.107" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="focused specs" name="should Click on validate button" time="5.106" />
  </testsuite>
 </testsuites>

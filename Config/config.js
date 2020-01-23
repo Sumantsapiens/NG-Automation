@@ -46,6 +46,28 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
             filePrefix:'xmloutput'
             
         }));
+
+        var fs = require('fs-extra');
+
+        fs.emptyDir('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Screenshots', function (err) {
+            console.log(err);
+        });
+
+        jasmine.getEnv().addReporter({
+            specDone: function(result) {
+                if (result.status == 'failed') {
+                    browser.getCapabilities().then(function (caps) {
+                        var browserName = caps.get('browserName');
+
+                        browser.takeScreenshot().then(function (png) {
+                            var stream = fs.createWriteStream('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Screenshots\\screenshot' + browserName + '-' + result.fullName+ '.png');
+                            stream.write(new Buffer(png, 'base64'));
+                            stream.end();
+                        });
+                    });
+                }
+            }
+        });
        },
    onComplete: function() {
        var browserName, browserVersion;
@@ -62,7 +84,7 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
                reportTitle: 'Protractor Test Execution Report',
                outputPath: 'Reports/HTMLReport',
                outputFilename: 'ProtractorTestReport',
-               screenshotPath: 'Reports/Screenshots',
+               screenshotPath: 'C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Screenshots',
                testBrowser: browserName,
                browserVersion: browserVersion,
                modifiedSuiteName: false,

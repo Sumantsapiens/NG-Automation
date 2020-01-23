@@ -132,7 +132,7 @@ describe('Navigate to Task and Open Task created in above suite', function () {
     });
     it('Should Click on Decision ', async function () {
         try {
-            //var canvasElement = element(by.id('godiagram'));
+
             var actions = browser.actions();
             actions.mouseMove({x: 675, y: 170}).click().perform();
             log.info("Moved to element and clicked on Decision");
@@ -140,12 +140,92 @@ describe('Navigate to Task and Open Task created in above suite', function () {
             console.log("", e);
             log.error(e.message, e);
         }
-
-
     });
 
+    it('should Enter the FTname from DV diagram', function () {
+        try {
+            browser.sleep(3000)
+            let condition = EC.presenceOf(DVModel.CreateFT1);
+            browser.wait(condition, 5000);
+            DVModel.CreateFT1.sendKeys('FT1').then(function () {
+                log.info('1.Entered the text in text box')
+                browser.sleep(5000)
+            }).then(function () {
+                DVModel.CreateFT1.sendKeys(protractor.Key.ENTER);
+                log.info('Clicked Enter button')
+            })
 
-    it('should ', async function () {
+        } catch (e) {
+            console.log("", e);
+            log.error(e.message, e);
+        }
+
+    })
+    it('should Create new FT FT2', function () {
+        try {
+            browser.sleep(3000)
+            let condition = EC.presenceOf(DVModel.CreateFT1);
+            browser.wait(condition, 5000);
+            DVModel.CreateFT1.sendKeys('FT2').then(function () {
+                log.info('2.Entered the text in text box')
+                browser.sleep(5000)
+            }).then(function () {
+                DVModel.CreateFT1.sendKeys(protractor.Key.ENTER);
+                log.info('Clicked Enter button')
+            })
+        } catch (e) {
+            console.log("", e);
+            log.error(e.message, e);
+        }
+    })
+    });
+
+it('should Create new FT FT3', function () {
+    try {
+        browser.sleep(3000)
+        let condition = EC.presenceOf(DVModel.CreateFT1);
+        browser.wait(condition, 5000);
+        DVModel.CreateFT1.sendKeys('FT3').then(function () {
+            log.info('3.Entered the text in text box')
+            browser.sleep(5000)
+        }).then(function () {
+            DVModel.CreateFT1.sendKeys(protractor.Key.ENTER);
+            log.info('Clicked Enter button')
+        })
+    } catch (e) {
+        console.log("", e);
+        log.error(e.message, e);
+    }
+});
+
+
+
+
+    it('should Click on validate button', function () {
+            try {
+                DVModel.ValidationIcon.click();
+                log.info('clicked on the Validation icon')
+
+            }catch (e) {
+                console.log("", e);
+                log.error(e.message, e);
+            }
+        });
+it('should Click on the validation play button', function () {
+    try {
+        let condition = EC.presenceOf(DVModel.Validateplayicon);
+        browser.wait(condition, 5000);
+        DVModel.Validateplayicon.click();
+        log.info('Clicked on play button')
+
+    }catch (e) {
+        console.log("", e);
+        log.error(e.message, e);
+    }
+});
+
+/*
+    it('should right click on the conclusion FT ', async function () {
         try {
             await browser.actions().mouseMove(Task.DecnConFTTab).click(protractor.Button.RIGHT).perform();
         } catch (e) {
@@ -163,89 +243,9 @@ describe('Navigate to Task and Open Task created in above suite', function () {
             console.log("", e);
             log.error(e.message, e);
         }
-    });
-});
-/*
-describe('Navigate Task and Create FT(s)',function () {
-
-    it('should Click on Task Tab', function () {
-        try {
-            Task.TaskTab.click();
-            log.info('Clicked on task tab');
-        }catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }})
-        it('should Select a task from list of tasks', function () {
-            try {
-                Task.tasklink.click();
-                log.info("Task has been seleceted");
-
-            } catch (e) {
-                console.log("", e);
-                log.error(e.message, e);
-            }});
-            it('should Select Fact type tab from tasks', function () {
-                try {
-                    Task.FacttypeTab.click();
-                    log.info("Facttype Tab Clicked");
-
-                } catch (e) {
-                    console.log("", e);
-                    log.error(e.message, e);
-                }})
-                it('should Click on Create new FT Button ', function () {
-                    try {
-
-                        Task.CreateNewFTButton.click();
-                        log.info("Clicked on Create New FT Button");
-
-                    } catch (e) {
-                        console.log("", e);
-                        log.error(e.message, e);
-                    }});
-    it('should Enter FT name in text area',  async function () {
-        try {
-
-           await Task.FTnameTextarea.sendKeys('FTAuto').then(function () {
-                log.info("Entered FT name");
-                browser.sleep(2000);
-            })
-
-        } catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }});
-   it('should Select Data type', function () {
-        try {
-            var i;
-            var Drop= element.all(by.css('*[aria-label=\'Toggle Dropdown\']'));
-
-            var Dropdownlength = Drop.count();
-            console.log(Dropdownlength);
-                     for(i=0;i<=Dropdownlength;i++)
-                     {
-                         if (i=1)
-                         {
-                             Task.CommonDropDownFTscreen.click();
-                         }
+    });*/
 
 
-                     }
-
-
-        } catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }});
-
-
-
-
-
-
-});
-*/
 
 
 
