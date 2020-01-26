@@ -1,76 +1,34 @@
-[2020-01-23T20:30:04.688] [INFO] things - Task tab has been clicked successfuly
-[2020-01-23T20:30:08.739] [INFO] things - Task has been seleceted
-[2020-01-23T20:30:10.970] [INFO] things - Decision Selected Successfully
-[2020-01-23T20:30:13.191] [INFO] things - Moved to element and clicked on Decision
-[2020-01-23T20:30:13.515] [ERROR] things - Cannot read property 'isPresent' of undefined TypeError: Cannot read property 'isPresent' of undefined
-    at ProtractorExpectedConditions.presenceOf (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\expectedConditions.js:341:30)
-    at ProtractorExpectedConditions.visibilityOf (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\expectedConditions.js:381:30)
-    at ProtractorExpectedConditions.elementToBeClickable (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\expectedConditions.js:184:30)
-    at UserContext.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\spec.js:147:32)
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
-    at new ManagedPromise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
-    at ControlFlow.promise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
-    at schedulerExecute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
-    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-[2020-01-23T20:32:06.349] [INFO] things - Task tab has been clicked successfuly
-[2020-01-23T20:32:10.212] [INFO] things - Task has been seleceted
-[2020-01-23T20:32:12.417] [INFO] things - Decision Selected Successfully
-[2020-01-23T20:32:14.587] [INFO] things - Moved to element and clicked on Decision
-[2020-01-23T20:32:14.969] [ERROR] things - Cannot read property 'isPresent' of undefined TypeError: Cannot read property 'isPresent' of undefined
-    at ProtractorExpectedConditions.presenceOf (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\expectedConditions.js:341:30)
-    at UserContext.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\spec.js:147:32)
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
-    at new ManagedPromise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
-    at ControlFlow.promise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
-    at schedulerExecute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
-    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
-[2020-01-23T20:33:18.949] [INFO] things - Task tab has been clicked successfuly
-[2020-01-23T20:33:22.864] [INFO] things - Task has been seleceted
-[2020-01-23T20:33:25.082] [INFO] things - Decision Selected Successfully
-[2020-01-23T20:33:27.258] [INFO] things - Moved to element and clicked on Decision
-[2020-01-23T20:33:27.598] [ERROR] things - Cannot read property 'isPresent' of undefined TypeError: Cannot read property 'isPresent' of undefined
-    at ProtractorExpectedConditions.presenceOf (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\expectedConditions.js:341:30)
-    at UserContext.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\spec.js:148:32)
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
-    at new ManagedPromise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
-    at ControlFlow.promise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
-    at schedulerExecute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
-    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
-    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
-    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
-[2020-01-23T20:34:12.043] [INFO] things - Task tab has been clicked successfuly
-[2020-01-23T20:34:16.138] [INFO] things - Task has been seleceted
-[2020-01-23T20:34:18.338] [INFO] things - Decision Selected Successfully
-[2020-01-23T20:34:20.534] [INFO] things - Moved to element and clicked on Decision
-[2020-01-23T20:35:56.066] [INFO] things - Task tab has been clicked successfuly
-[2020-01-23T20:35:59.845] [INFO] things - Task has been seleceted
-[2020-01-23T20:36:02.047] [INFO] things - Decision Selected Successfully
-[2020-01-23T20:36:04.225] [INFO] things - Moved to element and clicked on Decision
-[2020-01-23T20:36:07.719] [INFO] things - Entered the text in text box
-[2020-01-23T20:36:12.723] [INFO] things - Clicked Enter button
-[2020-01-23T20:38:55.977] [INFO] things - Task tab has been clicked successfuly
-[2020-01-23T20:38:59.857] [INFO] things - Task has been seleceted
-[2020-01-23T20:39:02.078] [INFO] things - Decision Selected Successfully
-[2020-01-23T20:39:04.232] [INFO] things - Moved to element and clicked on Decision
-[2020-01-23T20:39:07.709] [INFO] things - Entered the text in text box
-[2020-01-23T20:39:12.711] [INFO] things - Clicked Enter button
-[2020-01-23T20:42:31.929] [INFO] things - Task tab has been clicked successfuly
-[2020-01-23T20:42:35.849] [INFO] things - Task has been seleceted
-[2020-01-23T20:42:38.053] [INFO] things - Decision Selected Successfully
-[2020-01-23T20:42:40.212] [INFO] things - Moved to element and clicked on Decision
-[2020-01-23T20:42:43.734] [INFO] things - Entered the text in text box
-[2020-01-23T20:42:48.736] [INFO] things - Clicked Enter button
-[2020-01-23T20:48:44.105] [INFO] things - Task tab has been clicked successfuly
-[2020-01-23T20:48:48.159] [INFO] things - Task has been seleceted
-[2020-01-23T20:48:50.367] [INFO] things - Decision Selected Successfully
-[2020-01-23T20:48:52.568] [INFO] things - Moved to element and clicked on Decision
-[2020-01-23T20:48:56.037] [INFO] things - Entered the text in text box
-[2020-01-23T20:49:01.039] [INFO] things - Clicked Enter button
-[2020-01-23T20:49:04.403] [INFO] things - Entered the text in text box
-[2020-01-23T20:49:09.404] [INFO] things - Clicked Enter button
-[2020-01-23T20:49:09.528] [INFO] things - clicked on the Validation icon
+[2020-01-26T20:03:22.046] [INFO] things - Task tab has been clicked successfuly
+[2020-01-26T20:03:26.620] [INFO] things - Task has been seleceted
+[2020-01-26T20:03:30.916] [INFO] things - Decision Selected Successfully
+[2020-01-26T20:03:33.343] [INFO] things - Moved to element and clicked on Decision
+[2020-01-26T20:03:37.065] [INFO] things - 1.Entered the text in text box
+[2020-01-26T20:03:42.067] [INFO] things - Clicked Enter button
+[2020-01-26T20:03:45.540] [INFO] things - 2.Entered the text in text box
+[2020-01-26T20:03:50.543] [INFO] things - Clicked Enter button
+[2020-01-26T20:03:53.926] [INFO] things - 3.Entered the text in text box
+[2020-01-26T20:03:58.928] [INFO] things - Clicked Enter button
+[2020-01-26T20:03:59.087] [INFO] things - Moved to element and Double clicked on Decision
+[2020-01-26T20:04:01.365] [INFO] things - length of cells18
+[2020-01-26T20:04:02.044] [INFO] things - clicked on the fist element
+[2020-01-26T20:05:36.545] [INFO] things - Task tab has been clicked successfuly
+[2020-01-26T20:05:41.136] [INFO] things - Task has been seleceted
+[2020-01-26T20:05:45.443] [INFO] things - Decision Selected Successfully
+[2020-01-26T20:05:47.767] [INFO] things - Moved to element and clicked on Decision
+[2020-01-26T20:05:51.402] [INFO] things - 1.Entered the text in text box
+[2020-01-26T20:05:56.404] [INFO] things - Clicked Enter button
+[2020-01-26T20:05:59.925] [INFO] things - 2.Entered the text in text box
+[2020-01-26T20:06:04.927] [INFO] things - Clicked Enter button
+[2020-01-26T20:06:08.432] [INFO] things - 3.Entered the text in text box
+[2020-01-26T20:06:13.436] [INFO] things - Clicked Enter button
+[2020-01-26T20:06:13.642] [INFO] things - Moved to element and Double clicked on Decision
+[2020-01-26T20:06:14.826] [INFO] things - length of cells3
+[2020-01-26T20:06:15.397] [INFO] things - clicked on the fist element
+[2020-01-26T20:06:15.717] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-26T20:06:15.719] [INFO] things - Enter button clicked
+[2020-01-26T20:06:16.531] [INFO] things - clicked on the fist element
+[2020-01-26T20:06:16.697] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-26T20:06:16.697] [INFO] things - Enter button clicked
+[2020-01-26T20:06:17.571] [INFO] things - clicked on the fist element
+[2020-01-26T20:06:17.877] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-26T20:06:17.877] [INFO] things - Enter button clicked

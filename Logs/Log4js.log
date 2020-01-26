@@ -1,9 +1,21 @@
-[2020-01-23T20:48:44.105] [INFO] things - Task tab has been clicked successfuly
-[2020-01-23T20:48:48.159] [INFO] things - Task has been seleceted
-[2020-01-23T20:48:50.367] [INFO] things - Decision Selected Successfully
-[2020-01-23T20:48:52.568] [INFO] things - Moved to element and clicked on Decision
-[2020-01-23T20:48:56.037] [INFO] things - Entered the text in text box
-[2020-01-23T20:49:01.039] [INFO] things - Clicked Enter button
-[2020-01-23T20:49:04.403] [INFO] things - Entered the text in text box
-[2020-01-23T20:49:09.404] [INFO] things - Clicked Enter button
-[2020-01-23T20:49:09.528] [INFO] things - clicked on the Validation icon
+[2020-01-26T20:05:36.545] [INFO] things - Task tab has been clicked successfuly
+[2020-01-26T20:05:41.136] [INFO] things - Task has been seleceted
+[2020-01-26T20:05:45.443] [INFO] things - Decision Selected Successfully
+[2020-01-26T20:05:47.767] [INFO] things - Moved to element and clicked on Decision
+[2020-01-26T20:05:51.402] [INFO] things - 1.Entered the text in text box
+[2020-01-26T20:05:56.404] [INFO] things - Clicked Enter button
+[2020-01-26T20:05:59.925] [INFO] things - 2.Entered the text in text box
+[2020-01-26T20:06:04.927] [INFO] things - Clicked Enter button
+[2020-01-26T20:06:08.432] [INFO] things - 3.Entered the text in text box
+[2020-01-26T20:06:13.436] [INFO] things - Clicked Enter button
+[2020-01-26T20:06:13.642] [INFO] things - Moved to element and Double clicked on Decision
+[2020-01-26T20:06:14.826] [INFO] things - length of cells3
+[2020-01-26T20:06:15.397] [INFO] things - clicked on the fist element
+[2020-01-26T20:06:15.717] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-26T20:06:15.719] [INFO] things - Enter button clicked
+[2020-01-26T20:06:16.531] [INFO] things - clicked on the fist element
+[2020-01-26T20:06:16.697] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-26T20:06:16.697] [INFO] things - Enter button clicked
+[2020-01-26T20:06:17.571] [INFO] things - clicked on the fist element
+[2020-01-26T20:06:17.877] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-26T20:06:17.877] [INFO] things - Enter button clicked

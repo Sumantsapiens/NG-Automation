@@ -2,11 +2,11 @@
 var Canvasmove=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Resources\\Mouseaction.js');
 var home=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\Homepage.js');
 var Task=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\TaskPage.js');
-//var data1= require('Resources/Testdata.json');
-var data = require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Resources\\Testdata.json');
 var logger= require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Resources\\Logger.js');
 var DVModel=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\DV-ModelingPage.js');
+var RFVModeling=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\RFVModel.js');
 var log=logger.LOG;
+
 let EC = ExpectedConditions;
 
 browser.ignoreSynchronization=true;
@@ -89,7 +89,7 @@ describe('Create new decision', function () {
 });*/
 
 
-describe('Navigate to Task and Open Task created in above suite', function () {
+describe('Navigate to Task Model DV , Validate and Test', function () {
 
     it('should Click on Task Tab', function () {
         try {
@@ -110,140 +110,195 @@ describe('Navigate to Task and Open Task created in above suite', function () {
         try {
             Task.tasklink.click();
             log.info("Task has been seleceted");
-            browser.sleep(2000);
+            browser.sleep(4000);
         } catch (e) {
             console.log("", e);
             log.error(e.message, e);
         }
 
     });
+    /*
+    it('should click on the RFV TAB', function () {
 
-    it('should Select decision Link', function () {
         try {
+            let Newcond = EC.presenceOf(RFVModeling.RFVTab);
 
-
-            Task.DecisionLink.click();
-            log.info("Decision Selected Successfully")
-            browser.sleep(2000);
-        } catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }
-    });
-    it('Should Click on Decision ', async function () {
-        try {
-
-            var actions = browser.actions();
-            actions.mouseMove({x: 675, y: 170}).click().perform();
-            log.info("Moved to element and clicked on Decision");
-        } catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }
-    });
-
-    it('should Enter the FTname from DV diagram', function () {
-        try {
-            browser.sleep(3000)
-            let condition = EC.presenceOf(DVModel.CreateFT1);
-            browser.wait(condition, 5000);
-            DVModel.CreateFT1.sendKeys('FT1').then(function () {
-                log.info('1.Entered the text in text box')
-                browser.sleep(5000)
-            }).then(function () {
-                DVModel.CreateFT1.sendKeys(protractor.Key.ENTER);
-                log.info('Clicked Enter button')
+            browser.wait(Newcond, 5000);
+            RFVModeling.RFVTab.click().then(function () {
+browser.sleep(5000);
+                log.info('Clicked on RFV Tab');
             })
 
-        } catch (e) {
+        }catch (e) {
             console.log("", e);
             log.error(e.message, e);
         }
-
-    })
-    it('should Create new FT FT2', function () {
-        try {
-            browser.sleep(3000)
-            let condition = EC.presenceOf(DVModel.CreateFT1);
-            browser.wait(condition, 5000);
-            DVModel.CreateFT1.sendKeys('FT2').then(function () {
-                log.info('2.Entered the text in text box')
-                browser.sleep(5000)
-            }).then(function () {
-                DVModel.CreateFT1.sendKeys(protractor.Key.ENTER);
-                log.info('Clicked Enter button')
-            })
-        } catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }
-    })
     });
+    it('should click on the RFV Link', function () {
 
-it('should Create new FT FT3', function () {
-    try {
-        browser.sleep(3000)
-        let condition = EC.presenceOf(DVModel.CreateFT1);
-        browser.wait(condition, 5000);
-        DVModel.CreateFT1.sendKeys('FT3').then(function () {
-            log.info('3.Entered the text in text box')
-            browser.sleep(5000)
-        }).then(function () {
-            DVModel.CreateFT1.sendKeys(protractor.Key.ENTER);
-            log.info('Clicked Enter button')
-        })
-    } catch (e) {
-        console.log("", e);
-        log.error(e.message, e);
-    }
-});
-
-
-
-
-    it('should Click on validate button', function () {
-            try {
-                DVModel.ValidationIcon.click();
-                log.info('clicked on the Validation icon')
-
-            }catch (e) {
-                console.log("", e);
-                log.error(e.message, e);
-            }
-        });
-it('should Click on the validation play button', function () {
-    try {
-        let condition = EC.presenceOf(DVModel.Validateplayicon);
-        browser.wait(condition, 5000);
-        DVModel.Validateplayicon.click();
-        log.info('Clicked on play button')
-
-    }catch (e) {
-        console.log("", e);
-        log.error(e.message, e);
-    }
-});
-
-/*
-    it('should right click on the conclusion FT ', async function () {
         try {
-            await browser.actions().mouseMove(Task.DecnConFTTab).click(protractor.Button.RIGHT).perform();
-        } catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }
-        browser.sleep(5000)
+            let Newcond = EC.presenceOf(RFVModeling.RFVname);
 
-    });
-    it('should Click on Insert column', async function () {
-        try {
-            await browser.actions().mouseMove(Task.InsertColumn).click();
+            browser.wait(Newcond, 5000);
+            RFVModeling.RFVname.click();
+            log.info('clicked on RFV name')
 
-        } catch (e) {
+        }catch (e) {
             console.log("", e);
             log.error(e.message, e);
         }
     });*/
+
+        it('should Select decision Link', function () {
+            try {
+
+
+                Task.DecisionLink.click();
+                log.info("Decision Selected Successfully")
+                browser.sleep(2000);
+            } catch (e) {
+                console.log("", e);
+                log.error(e.message, e);
+            }
+        });
+        it('Should Click on Decision ', async function () {
+            try {
+
+                var actions = browser.actions();
+                actions.mouseMove({x: 675, y: 170}).click().perform();
+                log.info("Moved to element and clicked on Decision");
+            } catch (e) {
+                console.log("", e);
+                log.error(e.message, e);
+            }
+        });
+
+        it('should Enter the FTname from DV diagram', function () {
+            try {
+                browser.sleep(3000)
+                let condition = EC.presenceOf(DVModel.CreateFT1);
+                browser.wait(condition, 5000);
+                DVModel.CreateFT1.sendKeys('FT1').then(function () {
+                    log.info('1.Entered the text in text box')
+                    browser.sleep(5000)
+                }).then(function () {
+                    DVModel.CreateFT1.sendKeys(protractor.Key.ENTER);
+                    log.info('Clicked Enter button')
+                })
+
+            } catch (e) {
+                console.log("", e);
+                log.error(e.message, e);
+            }
+
+        })
+        it('should Create new FT FT2', function () {
+            try {
+                browser.sleep(3000)
+                let condition = EC.presenceOf(DVModel.CreateFT1);
+                browser.wait(condition, 5000);
+                DVModel.CreateFT1.sendKeys('FT2').then(function () {
+                    log.info('2.Entered the text in text box')
+                    browser.sleep(5000)
+                }).then(function () {
+                    DVModel.CreateFT1.sendKeys(protractor.Key.ENTER);
+                    log.info('Clicked Enter button')
+                })
+            } catch (e) {
+                console.log("", e);
+                log.error(e.message, e);
+            }
+        })
+
+
+        it('should Create new FT FT3', function () {
+             try {
+            browser.sleep(3000)
+            let condition = EC.presenceOf(DVModel.CreateFT1);
+            browser.wait(condition, 5000);
+            DVModel.CreateFT1.sendKeys('FT3').then(function () {
+                log.info('3.Entered the text in text box')
+                browser.sleep(5000)
+            }).then(function () {
+                DVModel.CreateFT1.sendKeys(protractor.Key.ENTER);
+                log.info('Clicked Enter button')
+            })
+        } catch (e) {
+            console.log("", e);
+            log.error(e.message, e);
+        }
+    });
+
+    it('Should Open Decision ', async function () {
+        try {
+
+            var actions = browser.actions();
+            actions.mouseMove({x: 700, y: 170}).doubleClick().perform();
+            RFVModeling.RFVPageDisplay.isDisplayed().then(function () {
+                console.log('Opened the DV')
+            })
+
+            log.info("Moved to element and Double clicked on Decision");
+
+        } catch (e) {
+            console.log("", e);
+            log.error(e.message, e);
+        }
+    });
+    it('should Click on Condition cell', function () {
+
+               RFVModeling.RFVConditionCells.then(function (items) {
+                log.info('length of cells'+items.length)
+                   for (var i=0;i<items.length;i++)
+                   {
+                       browser.actions().doubleClick(items[i]).perform().then(function () {
+                           log.info('clicked on the fist element');
+                           let condition = EC.presenceOf(RFVModeling.cellpopup);
+                           browser.wait(condition, 3000);
+                           RFVModeling.ConditionFTOperand.sendKeys('1').then(function () {
+                               log.info('Keys entered and entered the Enter button  code')
+                               RFVModeling.ConditionFTOperand.sendKeys(protractor.Key.ENTER);
+                               log.info('Enter button clicked')
+                           })
+                       })
+
+                   }
+
+               })
+
+
+
+
+    });
+
+
+    /*
+
+        it('should Click on validate button', function () {
+                try {
+                    DVModel.ValidationIcon.click();
+                    log.info('clicked on the Validation icon')
+
+                }catch (e) {
+                    console.log("", e);
+                    log.error(e.message, e);
+                }
+            });
+    it('should Click on the validation play button', function () {
+        try {
+            let condition = EC.presenceOf(DVModel.Validateplayicon);
+            browser.wait(condition, 5000);
+            DVModel.Validateplayicon.click();
+            log.info('Clicked on play button')
+
+        }catch (e) {
+            console.log("", e);
+            log.error(e.message, e);
+        }
+    });*/
+
+
+});
 
 
 

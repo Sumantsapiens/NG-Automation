@@ -7,6 +7,7 @@ exports.config= {
     seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: ['../Tests/spec.js'],
 
+
     jasmineNodeOpts: {
         defaultTimeoutInterval: 2500000
     },
@@ -15,11 +16,13 @@ exports.config= {
         'browserName': 'chrome',
         capabilities: {
             'browserName': 'chrome',
+
             'version':'79.0.3945.117',
             'loggingPrefs': {
                 'driver': 'WARNING',
                 'server': 'WARNING',
                 'browser': 'INFO'
+
             }
         },
         chromeOptions: {
