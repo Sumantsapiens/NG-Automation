@@ -1,21 +1,35 @@
-[2020-01-26T20:05:36.545] [INFO] things - Task tab has been clicked successfuly
-[2020-01-26T20:05:41.136] [INFO] things - Task has been seleceted
-[2020-01-26T20:05:45.443] [INFO] things - Decision Selected Successfully
-[2020-01-26T20:05:47.767] [INFO] things - Moved to element and clicked on Decision
-[2020-01-26T20:05:51.402] [INFO] things - 1.Entered the text in text box
-[2020-01-26T20:05:56.404] [INFO] things - Clicked Enter button
-[2020-01-26T20:05:59.925] [INFO] things - 2.Entered the text in text box
-[2020-01-26T20:06:04.927] [INFO] things - Clicked Enter button
-[2020-01-26T20:06:08.432] [INFO] things - 3.Entered the text in text box
-[2020-01-26T20:06:13.436] [INFO] things - Clicked Enter button
-[2020-01-26T20:06:13.642] [INFO] things - Moved to element and Double clicked on Decision
-[2020-01-26T20:06:14.826] [INFO] things - length of cells3
-[2020-01-26T20:06:15.397] [INFO] things - clicked on the fist element
-[2020-01-26T20:06:15.717] [INFO] things - Keys entered and entered the Enter button  code
-[2020-01-26T20:06:15.719] [INFO] things - Enter button clicked
-[2020-01-26T20:06:16.531] [INFO] things - clicked on the fist element
-[2020-01-26T20:06:16.697] [INFO] things - Keys entered and entered the Enter button  code
-[2020-01-26T20:06:16.697] [INFO] things - Enter button clicked
-[2020-01-26T20:06:17.571] [INFO] things - clicked on the fist element
-[2020-01-26T20:06:17.877] [INFO] things - Keys entered and entered the Enter button  code
-[2020-01-26T20:06:17.877] [INFO] things - Enter button clicked
+[2020-01-31T16:47:26.308] [INFO] things - Task tab has been clicked successfuly
+[2020-01-31T16:47:30.544] [INFO] things - Task has been seleceted
+[2020-01-31T16:47:35.813] [INFO] things - Decision Selected Successfully
+[2020-01-31T16:47:41.406] [INFO] things - 1.Entered the text in text box
+[2020-01-31T16:47:46.407] [INFO] things - Clicked Enter button
+[2020-01-31T16:47:49.741] [INFO] things - 2.Entered the text in text box
+[2020-01-31T16:47:54.745] [INFO] things - Clicked Enter button
+[2020-01-31T16:47:58.003] [INFO] things - 3.Entered the text in text box
+[2020-01-31T16:48:03.157] [INFO] things - Clicked Enter button
+[2020-01-31T16:48:08.586] [INFO] things - length of cells3
+[2020-01-31T16:48:08.839] [INFO] things - clicked on the fist element
+[2020-01-31T16:48:08.999] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-31T16:48:08.999] [INFO] things - Enter button clicked
+[2020-01-31T16:48:11.414] [INFO] things - clicked on the fist element
+[2020-01-31T16:48:11.566] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-31T16:48:11.566] [INFO] things - Enter button clicked
+[2020-01-31T16:48:13.997] [INFO] things - clicked on the fist element
+[2020-01-31T16:48:14.142] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-31T16:48:14.142] [INFO] things - Enter button clicked
+[2020-01-31T16:48:16.345] [INFO] things - Right click Succesfull
+[2020-01-31T16:48:16.346] [INFO] things - Created diagonal elements
+[2020-01-31T16:48:23.857] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:48:29.020] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:48:29.021] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:48:29.556] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:48:34.734] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:48:34.735] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:48:35.356] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:48:40.553] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:48:40.555] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:48:41.184] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:48:46.352] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:48:46.353] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:48:46.823] [INFO] things - clicked on the Validation icon
+[2020-01-31T16:48:46.966] [INFO] things - clicked on validation play icon

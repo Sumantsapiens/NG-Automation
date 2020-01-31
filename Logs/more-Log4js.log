@@ -1,34 +1,97 @@
-[2020-01-26T20:03:22.046] [INFO] things - Task tab has been clicked successfuly
-[2020-01-26T20:03:26.620] [INFO] things - Task has been seleceted
-[2020-01-26T20:03:30.916] [INFO] things - Decision Selected Successfully
-[2020-01-26T20:03:33.343] [INFO] things - Moved to element and clicked on Decision
-[2020-01-26T20:03:37.065] [INFO] things - 1.Entered the text in text box
-[2020-01-26T20:03:42.067] [INFO] things - Clicked Enter button
-[2020-01-26T20:03:45.540] [INFO] things - 2.Entered the text in text box
-[2020-01-26T20:03:50.543] [INFO] things - Clicked Enter button
-[2020-01-26T20:03:53.926] [INFO] things - 3.Entered the text in text box
-[2020-01-26T20:03:58.928] [INFO] things - Clicked Enter button
-[2020-01-26T20:03:59.087] [INFO] things - Moved to element and Double clicked on Decision
-[2020-01-26T20:04:01.365] [INFO] things - length of cells18
-[2020-01-26T20:04:02.044] [INFO] things - clicked on the fist element
-[2020-01-26T20:05:36.545] [INFO] things - Task tab has been clicked successfuly
-[2020-01-26T20:05:41.136] [INFO] things - Task has been seleceted
-[2020-01-26T20:05:45.443] [INFO] things - Decision Selected Successfully
-[2020-01-26T20:05:47.767] [INFO] things - Moved to element and clicked on Decision
-[2020-01-26T20:05:51.402] [INFO] things - 1.Entered the text in text box
-[2020-01-26T20:05:56.404] [INFO] things - Clicked Enter button
-[2020-01-26T20:05:59.925] [INFO] things - 2.Entered the text in text box
-[2020-01-26T20:06:04.927] [INFO] things - Clicked Enter button
-[2020-01-26T20:06:08.432] [INFO] things - 3.Entered the text in text box
-[2020-01-26T20:06:13.436] [INFO] things - Clicked Enter button
-[2020-01-26T20:06:13.642] [INFO] things - Moved to element and Double clicked on Decision
-[2020-01-26T20:06:14.826] [INFO] things - length of cells3
-[2020-01-26T20:06:15.397] [INFO] things - clicked on the fist element
-[2020-01-26T20:06:15.717] [INFO] things - Keys entered and entered the Enter button  code
-[2020-01-26T20:06:15.719] [INFO] things - Enter button clicked
-[2020-01-26T20:06:16.531] [INFO] things - clicked on the fist element
-[2020-01-26T20:06:16.697] [INFO] things - Keys entered and entered the Enter button  code
-[2020-01-26T20:06:16.697] [INFO] things - Enter button clicked
-[2020-01-26T20:06:17.571] [INFO] things - clicked on the fist element
-[2020-01-26T20:06:17.877] [INFO] things - Keys entered and entered the Enter button  code
-[2020-01-26T20:06:17.877] [INFO] things - Enter button clicked
+[2020-01-31T16:28:38.904] [INFO] things - Task tab has been clicked successfuly
+[2020-01-31T16:28:42.969] [INFO] things - Task has been seleceted
+[2020-01-31T16:28:48.169] [INFO] things - Decision Selected Successfully
+[2020-01-31T16:28:53.703] [INFO] things - 1.Entered the text in text box
+[2020-01-31T16:28:58.704] [INFO] things - Clicked Enter button
+[2020-01-31T16:30:32.362] [INFO] things - Task tab has been clicked successfuly
+[2020-01-31T16:30:36.570] [INFO] things - Task has been seleceted
+[2020-01-31T16:30:41.848] [INFO] things - Decision Selected Successfully
+[2020-01-31T16:30:47.727] [INFO] things - 1.Entered the text in text box
+[2020-01-31T16:30:52.729] [INFO] things - Clicked Enter button
+[2020-01-31T16:30:56.014] [INFO] things - 2.Entered the text in text box
+[2020-01-31T16:31:01.016] [INFO] things - Clicked Enter button
+[2020-01-31T16:31:04.230] [INFO] things - 3.Entered the text in text box
+[2020-01-31T16:31:09.643] [INFO] things - Clicked Enter button
+[2020-01-31T16:31:09.648] [INFO] things - Moved to element and Double clicked on Decision
+[2020-01-31T16:31:49.509] [INFO] things - length of cells0
+[2020-01-31T16:34:48.003] [INFO] things - Task tab has been clicked successfuly
+[2020-01-31T16:35:57.390] [INFO] things - Task tab has been clicked successfuly
+[2020-01-31T16:36:01.598] [INFO] things - Task has been seleceted
+[2020-01-31T16:36:06.853] [INFO] things - Decision Selected Successfully
+[2020-01-31T16:36:12.708] [INFO] things - 1.Entered the text in text box
+[2020-01-31T16:36:17.709] [INFO] things - Clicked Enter button
+[2020-01-31T16:36:20.938] [INFO] things - 2.Entered the text in text box
+[2020-01-31T16:36:25.939] [INFO] things - Clicked Enter button
+[2020-01-31T16:36:29.241] [INFO] things - 3.Entered the text in text box
+[2020-01-31T16:36:34.306] [INFO] things - Clicked Enter button
+[2020-01-31T16:36:34.308] [INFO] things - Moved to element and Double clicked on Decision
+[2020-01-31T16:44:05.780] [INFO] things - Task tab has been clicked successfuly
+[2020-01-31T16:44:09.995] [INFO] things - Task has been seleceted
+[2020-01-31T16:44:15.249] [INFO] things - Decision Selected Successfully
+[2020-01-31T16:44:20.965] [INFO] things - 1.Entered the text in text box
+[2020-01-31T16:44:25.967] [INFO] things - Clicked Enter button
+[2020-01-31T16:44:29.311] [INFO] things - 2.Entered the text in text box
+[2020-01-31T16:44:34.316] [INFO] things - Clicked Enter button
+[2020-01-31T16:44:37.562] [INFO] things - 3.Entered the text in text box
+[2020-01-31T16:44:42.646] [INFO] things - Clicked Enter button
+[2020-01-31T16:44:48.029] [INFO] things - length of cells3
+[2020-01-31T16:44:48.304] [INFO] things - clicked on the fist element
+[2020-01-31T16:44:48.489] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-31T16:44:48.489] [INFO] things - Enter button clicked
+[2020-01-31T16:44:50.922] [INFO] things - clicked on the fist element
+[2020-01-31T16:44:51.073] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-31T16:44:51.073] [INFO] things - Enter button clicked
+[2020-01-31T16:44:53.524] [INFO] things - clicked on the fist element
+[2020-01-31T16:44:53.732] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-31T16:44:53.732] [INFO] things - Enter button clicked
+[2020-01-31T16:44:56.157] [INFO] things - Right click Succesfull
+[2020-01-31T16:44:56.158] [INFO] things - Created diagonal elements
+[2020-01-31T16:45:03.584] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:45:08.738] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:45:08.739] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:45:09.170] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:45:14.356] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:45:14.356] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:45:14.795] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:45:19.955] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:45:19.956] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:45:20.440] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:45:25.633] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:45:25.653] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:45:26.021] [INFO] things - clicked on the Validation icon
+[2020-01-31T16:45:26.182] [INFO] things - clicked on validation play icon
+[2020-01-31T16:47:26.308] [INFO] things - Task tab has been clicked successfuly
+[2020-01-31T16:47:30.544] [INFO] things - Task has been seleceted
+[2020-01-31T16:47:35.813] [INFO] things - Decision Selected Successfully
+[2020-01-31T16:47:41.406] [INFO] things - 1.Entered the text in text box
+[2020-01-31T16:47:46.407] [INFO] things - Clicked Enter button
+[2020-01-31T16:47:49.741] [INFO] things - 2.Entered the text in text box
+[2020-01-31T16:47:54.745] [INFO] things - Clicked Enter button
+[2020-01-31T16:47:58.003] [INFO] things - 3.Entered the text in text box
+[2020-01-31T16:48:03.157] [INFO] things - Clicked Enter button
+[2020-01-31T16:48:08.586] [INFO] things - length of cells3
+[2020-01-31T16:48:08.839] [INFO] things - clicked on the fist element
+[2020-01-31T16:48:08.999] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-31T16:48:08.999] [INFO] things - Enter button clicked
+[2020-01-31T16:48:11.414] [INFO] things - clicked on the fist element
+[2020-01-31T16:48:11.566] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-31T16:48:11.566] [INFO] things - Enter button clicked
+[2020-01-31T16:48:13.997] [INFO] things - clicked on the fist element
+[2020-01-31T16:48:14.142] [INFO] things - Keys entered and entered the Enter button  code
+[2020-01-31T16:48:14.142] [INFO] things - Enter button clicked
+[2020-01-31T16:48:16.345] [INFO] things - Right click Succesfull
+[2020-01-31T16:48:16.346] [INFO] things - Created diagonal elements
+[2020-01-31T16:48:23.857] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:48:29.020] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:48:29.021] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:48:29.556] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:48:34.734] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:48:34.735] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:48:35.356] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:48:40.553] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:48:40.555] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:48:41.184] [INFO] things - Clicked on conclusion cell
+[2020-01-31T16:48:46.352] [INFO] things - Keys Entered in Conclusion cell
+[2020-01-31T16:48:46.353] [INFO] things - Enter button clicked after conclusion
+[2020-01-31T16:48:46.823] [INFO] things - clicked on the Validation icon
+[2020-01-31T16:48:46.966] [INFO] things - clicked on validation play icon

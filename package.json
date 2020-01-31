@@ -2,9 +2,9 @@
   "name": "NGAutomation",
   "version": "1.0.0",
   "dependencies": {
-    "protractor": "5.4.2",
-    "selenium-webdriver": "4.0.0-alpha.5",
-    "jasmine": "3.5.0",
+    "protractor": "^5.4.3",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "jasmine": "^3.5.0n",
     "type": "2.0.0",
     "module": "1.2.5",
     "jasmine-reporters-with-custom-junit-reporter": "2.3.5",
@@ -13,7 +13,5 @@
     "protractor-html-reporter-2": "1.0.4",
     "fs-extra": "8.1.0",
     "log4js": "6.1.0"
-
-
   }
 }
