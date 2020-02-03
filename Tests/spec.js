@@ -117,7 +117,7 @@ describe('Navigate to Task Model DV , Validate and Test', function () {
         }
 
     });
-/*
+
     it('should Cick on RFV TAB and select RFV ', function () {
         try {
             RFVModeling.RFVTab.click().then(function () {
@@ -134,7 +134,7 @@ describe('Navigate to Task Model DV , Validate and Test', function () {
             log.error(e.message, e);
         }
     });
-*/
+/*
     it('should Select decision Link', function () {
         try {
 
@@ -313,46 +313,68 @@ describe('Navigate to Task Model DV , Validate and Test', function () {
 
     });
 
-
+*/
                 it('should Validate RFV', async function () {
                         try {
+                            browser.sleep(1000);
                             browser.waitForAngular();
                            await browser.actions().mouseMove(DVModel.ValidationIcon).click().perform().then(async function () {
                                 log.info('clicked on the Validation icon');
+                                browser.sleep(1000);
                            await browser.actions().mouseMove(DVModel.Validateplayicon).click().perform().then(function () {
-                                    log.info('clicked on validation play icon')
-
+                                log.info('clicked on validation play icon')
+                                browser.waitForAngular()
+                               RFVModeling.Messagedescription.then(function (msgtext) {
+                                    for (var i=0;i<msgtext.length;i++)
+                                    {
+                                        msgtext[i].getText().then(function (text1) {
+                                            log.info('Validation message is'+text1)
+                                            console.log(text1)
+                                            expect(text1).toBe('This Rule Family is valid.');
+                                        })
+                                    }
+                               })
                                     browser.sleep(5000);
                                 })
                             })
+
                         }catch (e) {
                             console.log("", e);
                             log.error(e.message, e);
                         }
                     });
-            /*
-            it('should Perform Testing', function () {
+
+            it('should Perform RFV Testing', function () {
                 try {
-                  browser.actions().mouseMove(DVModel.TestingIcon).click().perform().then(function () {
-                        log.info('clicked on Testing')
+                                DVModel.ValidationIcon.click().then(function () {
+                                    browser.actions().mouseMove(DVModel.TestingIcon).click().perform().then(function () {
+                                        log.info('clicked on Testing')
+                                        DVModel.TestingInputValues.then(function (items) {
+                                            log.info('length of cells'+items.length)
+                                            for (var i=0;i<items.length;i++)
+                                            {
+                                                items[i].sendKeys('2')
 
-                            DVModel.TestingInputValues.then(function (items) {
-                                log.info('length of cells'+items.length)
-                                for (var i=0;i<items.length;i++)
-                                {
-                                    browser.actions().sendKeys(items[i],'0').perform().then(function () {
-                                        log.debug('sent in the keys in input field'+i)
+                                            }
+                                            DVModel.TestingPlayButton.click().then(function () {
+                                                let condition1=EC.visibilityOf(DVModel.ResultsText)
+                                                browser.wait(condition1,5000)
+                                                DVModel.ResultsText.getText().then(function (text) {
+                                                    log.info('Results= '+text);
+                                                    console.log('Results= '+text)
+                                                })
+
+                                            })
+                                        })
+
                                     })
-                                }
-                            })
 
-                    })
-
+                                })
                 }catch (e) {
                     console.log("", e);
                     log.error(e.message, e);
                 }
-            });*/
+            });
 
 });
 

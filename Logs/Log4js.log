@@ -1,35 +1,10 @@
-[2020-01-31T16:47:26.308] [INFO] things - Task tab has been clicked successfuly
-[2020-01-31T16:47:30.544] [INFO] things - Task has been seleceted
-[2020-01-31T16:47:35.813] [INFO] things - Decision Selected Successfully
-[2020-01-31T16:47:41.406] [INFO] things - 1.Entered the text in text box
-[2020-01-31T16:47:46.407] [INFO] things - Clicked Enter button
-[2020-01-31T16:47:49.741] [INFO] things - 2.Entered the text in text box
-[2020-01-31T16:47:54.745] [INFO] things - Clicked Enter button
-[2020-01-31T16:47:58.003] [INFO] things - 3.Entered the text in text box
-[2020-01-31T16:48:03.157] [INFO] things - Clicked Enter button
-[2020-01-31T16:48:08.586] [INFO] things - length of cells3
-[2020-01-31T16:48:08.839] [INFO] things - clicked on the fist element
-[2020-01-31T16:48:08.999] [INFO] things - Keys entered and entered the Enter button  code
-[2020-01-31T16:48:08.999] [INFO] things - Enter button clicked
-[2020-01-31T16:48:11.414] [INFO] things - clicked on the fist element
-[2020-01-31T16:48:11.566] [INFO] things - Keys entered and entered the Enter button  code
-[2020-01-31T16:48:11.566] [INFO] things - Enter button clicked
-[2020-01-31T16:48:13.997] [INFO] things - clicked on the fist element
-[2020-01-31T16:48:14.142] [INFO] things - Keys entered and entered the Enter button  code
-[2020-01-31T16:48:14.142] [INFO] things - Enter button clicked
-[2020-01-31T16:48:16.345] [INFO] things - Right click Succesfull
-[2020-01-31T16:48:16.346] [INFO] things - Created diagonal elements
-[2020-01-31T16:48:23.857] [INFO] things - Clicked on conclusion cell
-[2020-01-31T16:48:29.020] [INFO] things - Keys Entered in Conclusion cell
-[2020-01-31T16:48:29.021] [INFO] things - Enter button clicked after conclusion
-[2020-01-31T16:48:29.556] [INFO] things - Clicked on conclusion cell
-[2020-01-31T16:48:34.734] [INFO] things - Keys Entered in Conclusion cell
-[2020-01-31T16:48:34.735] [INFO] things - Enter button clicked after conclusion
-[2020-01-31T16:48:35.356] [INFO] things - Clicked on conclusion cell
-[2020-01-31T16:48:40.553] [INFO] things - Keys Entered in Conclusion cell
-[2020-01-31T16:48:40.555] [INFO] things - Enter button clicked after conclusion
-[2020-01-31T16:48:41.184] [INFO] things - Clicked on conclusion cell
-[2020-01-31T16:48:46.352] [INFO] things - Keys Entered in Conclusion cell
-[2020-01-31T16:48:46.353] [INFO] things - Enter button clicked after conclusion
-[2020-01-31T16:48:46.823] [INFO] things - clicked on the Validation icon
-[2020-01-31T16:48:46.966] [INFO] things - clicked on validation play icon
+[2020-02-03T12:29:16.310] [INFO] things - Task tab has been clicked successfuly
+[2020-02-03T12:29:19.973] [INFO] things - Task has been seleceted
+[2020-02-03T12:29:25.436] [INFO] things - Clcked on RFV TAB
+[2020-02-03T12:29:25.436] [DEBUG] things - Clicked on RFV Name
+[2020-02-03T12:29:29.621] [INFO] things - clicked on the Validation icon
+[2020-02-03T12:29:30.813] [INFO] things - clicked on validation play icon
+[2020-02-03T12:29:31.215] [INFO] things - Validation message isThis Rule Family is valid.
+[2020-02-03T12:29:36.720] [INFO] things - clicked on Testing
+[2020-02-03T12:29:37.057] [INFO] things - length of cells3
+[2020-02-03T12:29:41.698] [INFO] things - Results =0

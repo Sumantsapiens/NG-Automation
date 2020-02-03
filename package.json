@@ -12,6 +12,7 @@
     "jasmine-reporters": "2.3.2",
     "protractor-html-reporter-2": "1.0.4",
     "fs-extra": "8.1.0",
-    "log4js": "6.1.0"
+    "log4js": "6.1.0",
+    "xlsx": "^0.15.5"
   }
 }

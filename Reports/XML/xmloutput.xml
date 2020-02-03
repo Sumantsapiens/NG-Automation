@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="12" time="102.256">
- <testsuite name="Navigate to Task Model DV , Validate and Test" timestamp="2020-01-31T16:47:09" hostname="localhost" time="102.256" errors="0" tests="12" skipped="0" disabled="0" failures="0">
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Click on Task Tab" time="20.824" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Select the Task created in previous suite" time="5.269" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Select decision Link" time="2.237" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="Should Click on Decision " time="0.154" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Enter the FTname from DV diagram" time="8.336" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Create new FT FT2" time="8.338" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Create new FT FT3" time="8.282" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="Should Open Decision " time="0.305" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Click on Condition cell" time="12.781" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Create diagonal " time="5.271" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Enter in the Conclusion cells" time="25.065" />
-  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Validate RFV" time="5.391" />
+<testsuites disabled="0" errors="0" failures="0" tests="5" time="40.957">
+ <testsuite name="Navigate to Task Model DV , Validate and Test" timestamp="2020-02-03T12:29:00" hostname="localhost" time="40.957" errors="0" tests="5" skipped="0" disabled="0" failures="0">
+  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Click on Task Tab" time="19.225" />
+  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Select the Task created in previous suite" time="5.258" />
+  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Cick on RFV TAB and select RFV " time="2.489" />
+  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Validate RFV" time="8.534" />
+  <testcase classname="Navigate to Task Model DV , Validate and Test" name="should Perform RFV Testing" time="5.447" />
  </testsuite>
 </testsuites>
