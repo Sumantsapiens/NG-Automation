@@ -1,10 +1,37 @@
-[2020-02-03T12:29:16.310] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:29:19.973] [INFO] things - Task has been seleceted
-[2020-02-03T12:29:25.436] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:29:25.436] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:29:29.621] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:29:30.813] [INFO] things - clicked on validation play icon
-[2020-02-03T12:29:31.215] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-03T12:29:36.720] [INFO] things - clicked on Testing
-[2020-02-03T12:29:37.057] [INFO] things - length of cells3
-[2020-02-03T12:29:41.698] [INFO] things - Results =0
+[2020-02-06T12:04:33.569] [INFO] things - Canvas page displayed
+[2020-02-06T12:04:44.059] [INFO] things - 1.Entered the text in text box
+[2020-02-06T12:04:49.198] [INFO] things - Clicked Enter button
+[2020-02-06T12:04:52.877] [INFO] things - 1.Entered the text in text box
+[2020-02-06T12:04:57.995] [INFO] things - Clicked Enter button
+[2020-02-06T12:05:01.674] [INFO] things - 1.Entered the text in text box
+[2020-02-06T12:05:06.798] [INFO] things - Clicked Enter button
+[2020-02-06T12:05:09.667] [INFO] things - length of cells3
+[2020-02-06T12:05:09.888] [INFO] things - clicked on the fist element
+[2020-02-06T12:05:11.160] [INFO] things - Keys entered and entered the Enter button  code
+[2020-02-06T12:05:11.831] [INFO] things - Enter button clicked
+[2020-02-06T12:05:12.149] [INFO] things - clicked on the fist element
+[2020-02-06T12:05:13.517] [INFO] things - Keys entered and entered the Enter button  code
+[2020-02-06T12:05:14.156] [INFO] things - Enter button clicked
+[2020-02-06T12:05:14.449] [INFO] things - clicked on the fist element
+[2020-02-06T12:05:15.692] [INFO] things - Keys entered and entered the Enter button  code
+[2020-02-06T12:05:16.317] [INFO] things - Enter button clicked
+[2020-02-06T12:05:17.486] [INFO] things - Right click Succesfull
+[2020-02-06T12:05:17.487] [INFO] things - Created diagonal elements
+[2020-02-06T12:05:24.982] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:05:27.382] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:05:27.383] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:05:27.810] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:05:30.211] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:05:30.211] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:05:30.821] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:05:33.097] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:05:33.097] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:05:33.471] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:05:35.986] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:05:35.987] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:05:37.270] [INFO] things - clicked on the Validation icon
+[2020-02-06T12:05:38.463] [INFO] things - clicked on validation play icon
+[2020-02-06T12:05:39.092] [INFO] things - Validation message isThis Rule Family is valid.
+[2020-02-06T12:05:44.940] [INFO] things - clicked on Testing
+[2020-02-06T12:05:45.052] [INFO] things - length of cells3
+[2020-02-06T12:05:51.334] [INFO] things - Results= eligible

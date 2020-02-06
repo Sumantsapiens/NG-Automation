@@ -1,9 +1,10 @@
 //var data = require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Resources\\Testdata.json');
 function Taskpage() {
+var data=require('../Resources/Testdata.json')
 
     this.TaskTab = element(by.xpath('//*[@class="navigation-menu__item u-flex-child--static navigation-menu__item__tasks"]'));
-    this.tasklink = element(by.partialLinkText('Taskt12'));
-    this.DecisionLink = element(by.partialLinkText('Decin1'));
+    this.tasklink = element(by.partialLinkText(data.TaskName));
+    this.DecisionLink = element(by.partialLinkText(data.decisionname));
     this.FacttypeTab = element(by.css('*[class=\'navigation-menu__item u-flex-child--static navigation-menu__item__factTypes ng-star-inserted\']'));
     this.RepositoryTab = element(by.xpath('//*[@class=\'navigation-menu__item u-flex-child--static navigation-menu__item__viewGroups\']'));
     this.CreateNewFTButton = element(by.xpath('//*[@class=\'task-facts__create-button\']'));

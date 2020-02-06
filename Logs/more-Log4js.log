@@ -1,91 +1,55 @@
-[2020-02-03T12:00:32.411] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:00:36.284] [INFO] things - Task has been seleceted
-[2020-02-03T12:00:41.693] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:00:41.694] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:00:45.700] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:00:46.892] [INFO] things - clicked on validation play icon
-[2020-02-03T12:00:47.228] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-03T12:00:52.652] [INFO] things - clicked on Testing
-[2020-02-03T12:01:12.693] [INFO] things - length of cells0
-[2020-02-03T12:02:34.782] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:02:38.833] [INFO] things - Task has been seleceted
-[2020-02-03T12:02:44.256] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:02:44.256] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:02:48.535] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:02:49.729] [INFO] things - clicked on validation play icon
-[2020-02-03T12:02:50.149] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-03T12:02:55.817] [INFO] things - clicked on Testing
-[2020-02-03T12:02:55.863] [INFO] things - length of cells3
-[2020-02-03T12:06:44.775] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:06:54.050] [INFO] things - Task has been seleceted
-[2020-02-03T12:06:59.672] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:06:59.672] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:07:03.856] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:07:05.061] [INFO] things - clicked on validation play icon
-[2020-02-03T12:07:05.448] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-03T12:07:11.126] [INFO] things - clicked on Testing
-[2020-02-03T12:07:11.171] [INFO] things - length of cells3
-[2020-02-03T12:09:17.335] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:09:21.417] [INFO] things - Task has been seleceted
-[2020-02-03T12:09:26.836] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:09:26.836] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:09:31.105] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:09:32.362] [INFO] things - clicked on validation play icon
-[2020-02-03T12:09:32.767] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-03T12:09:38.474] [INFO] things - clicked on Testing
-[2020-02-03T12:09:38.528] [INFO] things - length of cells3
-[2020-02-03T12:11:29.555] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:11:33.212] [INFO] things - Task has been seleceted
-[2020-02-03T12:11:38.661] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:11:38.661] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:11:42.896] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:11:44.101] [INFO] things - clicked on validation play icon
-[2020-02-03T12:11:44.458] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-03T12:11:50.125] [INFO] things - clicked on Testing
-[2020-02-03T12:11:50.169] [INFO] things - length of cells3
-[2020-02-03T12:11:52.155] [INFO] things - Results =0
-[2020-02-03T12:12:42.683] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:12:46.531] [INFO] things - Task has been seleceted
-[2020-02-03T12:12:51.959] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:12:51.959] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:12:56.504] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:12:57.693] [INFO] things - clicked on validation play icon
-[2020-02-03T12:12:58.143] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-03T12:13:03.844] [INFO] things - clicked on Testing
-[2020-02-03T12:13:03.891] [INFO] things - length of cells3
-[2020-02-03T12:13:05.951] [INFO] things - Results =0
-[2020-02-03T12:13:38.192] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:13:42.136] [INFO] things - Task has been seleceted
-[2020-02-03T12:13:47.560] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:13:47.560] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:13:51.984] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:13:53.163] [INFO] things - clicked on validation play icon
-[2020-02-03T12:13:53.607] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-03T12:13:59.364] [INFO] things - clicked on Testing
-[2020-02-03T12:13:59.438] [INFO] things - length of cells3
-[2020-02-03T12:14:01.646] [INFO] things - Results =0
-[2020-02-03T12:27:00.410] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:27:04.086] [INFO] things - Task has been seleceted
-[2020-02-03T12:27:09.583] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:27:09.584] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:27:14.317] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:27:15.483] [INFO] things - clicked on validation play icon
-[2020-02-03T12:27:16.075] [INFO] things - Validation message isP12
-Rule Family has two overlapping rules in rows : “1226726” and “1226730”
-[2020-02-03T12:27:16.135] [INFO] things - Validation message isP12
-Rule Family has two overlapping rules in rows : “1226726” and “1226734”
-[2020-02-03T12:27:16.185] [INFO] things - Validation message isP12
-Rule Family has two overlapping rules in rows : “1226730” and “1226734”
-[2020-02-03T12:27:22.219] [INFO] things - clicked on Testing
-[2020-02-03T12:27:22.287] [INFO] things - length of cells3
-[2020-02-03T12:27:29.475] [INFO] things - Results =0
-[2020-02-03T12:29:16.310] [INFO] things - Task tab has been clicked successfuly
-[2020-02-03T12:29:19.973] [INFO] things - Task has been seleceted
-[2020-02-03T12:29:25.436] [INFO] things - Clcked on RFV TAB
-[2020-02-03T12:29:25.436] [DEBUG] things - Clicked on RFV Name
-[2020-02-03T12:29:29.621] [INFO] things - clicked on the Validation icon
-[2020-02-03T12:29:30.813] [INFO] things - clicked on validation play icon
-[2020-02-03T12:29:31.215] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-03T12:29:36.720] [INFO] things - clicked on Testing
-[2020-02-03T12:29:37.057] [INFO] things - length of cells3
-[2020-02-03T12:29:41.698] [INFO] things - Results =0
+[2020-02-06T12:00:07.407] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:00:12.667] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:00:12.667] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:00:13.222] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:00:18.559] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:00:18.560] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:00:19.176] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:00:24.392] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:00:24.392] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:00:24.772] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:00:30.141] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:00:30.142] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:00:31.496] [INFO] things - clicked on the Validation icon
+[2020-02-06T12:00:32.668] [INFO] things - clicked on validation play icon
+[2020-02-06T12:00:33.418] [INFO] things - Validation message isThis Rule Family is valid.
+[2020-02-06T12:00:39.128] [INFO] things - clicked on Testing
+[2020-02-06T12:00:39.168] [INFO] things - length of cells3
+[2020-02-06T12:00:43.950] [INFO] things - Results= NotPopulated
+[2020-02-06T12:04:33.569] [INFO] things - Canvas page displayed
+[2020-02-06T12:04:44.059] [INFO] things - 1.Entered the text in text box
+[2020-02-06T12:04:49.198] [INFO] things - Clicked Enter button
+[2020-02-06T12:04:52.877] [INFO] things - 1.Entered the text in text box
+[2020-02-06T12:04:57.995] [INFO] things - Clicked Enter button
+[2020-02-06T12:05:01.674] [INFO] things - 1.Entered the text in text box
+[2020-02-06T12:05:06.798] [INFO] things - Clicked Enter button
+[2020-02-06T12:05:09.667] [INFO] things - length of cells3
+[2020-02-06T12:05:09.888] [INFO] things - clicked on the fist element
+[2020-02-06T12:05:11.160] [INFO] things - Keys entered and entered the Enter button  code
+[2020-02-06T12:05:11.831] [INFO] things - Enter button clicked
+[2020-02-06T12:05:12.149] [INFO] things - clicked on the fist element
+[2020-02-06T12:05:13.517] [INFO] things - Keys entered and entered the Enter button  code
+[2020-02-06T12:05:14.156] [INFO] things - Enter button clicked
+[2020-02-06T12:05:14.449] [INFO] things - clicked on the fist element
+[2020-02-06T12:05:15.692] [INFO] things - Keys entered and entered the Enter button  code
+[2020-02-06T12:05:16.317] [INFO] things - Enter button clicked
+[2020-02-06T12:05:17.486] [INFO] things - Right click Succesfull
+[2020-02-06T12:05:17.487] [INFO] things - Created diagonal elements
+[2020-02-06T12:05:24.982] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:05:27.382] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:05:27.383] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:05:27.810] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:05:30.211] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:05:30.211] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:05:30.821] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:05:33.097] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:05:33.097] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:05:33.471] [INFO] things - Clicked on conclusion cell
+[2020-02-06T12:05:35.986] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-06T12:05:35.987] [INFO] things - Enter button clicked after conclusion
+[2020-02-06T12:05:37.270] [INFO] things - clicked on the Validation icon
+[2020-02-06T12:05:38.463] [INFO] things - clicked on validation play icon
+[2020-02-06T12:05:39.092] [INFO] things - Validation message isThis Rule Family is valid.
+[2020-02-06T12:05:44.940] [INFO] things - clicked on Testing
+[2020-02-06T12:05:45.052] [INFO] things - length of cells3
+[2020-02-06T12:05:51.334] [INFO] things - Results= eligible

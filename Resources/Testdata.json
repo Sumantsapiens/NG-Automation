@@ -3,11 +3,16 @@
 "url":"http://bdmsuat7:18821/login.html",
 "UserId":"Sumant",
 "Pass":"Decision1",
- "TaskName": "Task121",
- "CommunityName":"Sumant",
- "Descriptiontext" : "Hello World",
- "DecisionName": "Test111",
- "ViewName": "Base"
+ "TaskName": "AutoTas1",
+ "CommunityText":"Sumant",
+ "decisionname": "Decn213",
+ "FT1": "Sum1",
+ "FT2": "Sum2",
+ "FT3": "Sum3",
+ "Conditions": "test1",
+ "Conclusions1": "eligible",
+ "Conclusion2": "eligible",
+ "TestValues": "test1"
 
 
 }

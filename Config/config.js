@@ -1,7 +1,7 @@
 
 //var data= require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Resources\\Testdata.json');
 //var data =require('Resources/Testdata.json');
-
+var testdata1=require('../Resources/Testdata.json')
 exports.config= {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
@@ -34,11 +34,11 @@ exports.config= {
 var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\Loginpage.js');
         browser.manage().timeouts().implicitlyWait(20000)
         browser.ignoreSynchronization=true;
-        browser.get('http://bdmsuat7:18821/login.html');
+        browser.get(testdata1.url);
         browser.driver.manage().window().maximize();
-        obj.username.sendKeys('sumant')
+        obj.username.sendKeys(testdata1.UserId)
 
-        obj.password.sendKeys('Decision1');
+        obj.password.sendKeys(testdata1.Pass);
         obj.loginbutton.click();
         browser.waitForAngular(true);
 

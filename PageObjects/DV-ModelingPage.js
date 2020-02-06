@@ -5,7 +5,7 @@ function DVModeling() {
     this.DecnConFTTab=element(by.xpath('//*[@class=\'wj-cell wj-header conclusionHeader\']'));
     this.InsertColumn=element(by.linkText('Insert Column'));
     this.Column1=element(by.xpath('//*[@class="wj-cell wj-header"][1]'));
-    this.CreateFT1=element(by.css('*[class="ng-tns-c14-2 ui-inputtext ui-widget ui-state-default ui-corner-all ui-autocomplete-input ng-star-inserted"]'));
+    this.CreateFT=element(by.xpath('//p-autocomplete[@ng-reflect-placeholder="fact type name"]//*[@type="text"]'));
     this.CreateFT2=element(by.xpath('//*[@placeholder="fact type name"]'));
     this.ValidationIcon=element(by.xpath('//*[@id="body"]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/dcn-decision-sidebar/div/dcn-floating-action-sidebar/span/div/dcn-floating-action-button[1]/div/div'));
     this.Validateplayicon=element(by.xpath('//*[@id="body"]/dcn-enterprise-app/dcn-shell/div/div[2]/ng-component/div/div/dcn-decision-sidebar/div/dcn-floating-action-sidebar/span/div/dcn-floating-action-button[1]/div/div[1]/div[2]/button'));
