@@ -1,6 +1,10 @@
 {
   "name": "NGAutomation",
   "version": "1.0.0",
+  "scripts": {
+    "protractortest": "protractor conf.js",
+    
+  },
   "dependencies": {
     "protractor": "^5.4.3",
     "jasmine-data-provider": "^2.2.0",
@@ -14,6 +18,9 @@
     "protractor-html-reporter-2": "1.0.4",
     "fs-extra": "8.1.0",
     "log4js": "6.1.0",
-    "xlsx": "^0.15.5"
+    "xlsx": "^0.15.5",
+    "jasmine-allure-reporter": "1.0.2",
+    "allure-commandline": "^2.13.0"
+
   }
 }

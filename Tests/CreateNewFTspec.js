@@ -8,9 +8,10 @@ var logger= require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automa
 var DVModel=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\DV-ModelingPage.js');
 var log=logger.LOG;
 let EC = ExpectedConditions;
+var data1 = require('../Resources/Testdata.json');
 
 browser.ignoreSynchronization=true;
-/*
+
 describe('Navigate Task and Create FT(Single & Text)',function () {
 
     it('should Click on Task Tab', function () {
@@ -56,7 +57,7 @@ describe('Navigate Task and Create FT(Single & Text)',function () {
     it('should Enter FT name in text area', async function () {
         try {
 
-            await Task.FTnameTextarea.sendKeys('FTAuto').then(function () {
+            await Task.FTnameTextarea.sendKeys(data1.SingleFT).then(function () {
                 log.info("Entered FT name");
                 browser.sleep(2000);
             })
@@ -94,7 +95,7 @@ describe('Navigate Task and Create FT(Single & Text)',function () {
         it('should Enter FT name in text area',  async function () {
             try {
 
-                await Task.FTnameTextarea.sendKeys('FTAuto1').then(function () {
+                await Task.FTnameTextarea.sendKeys(data1.MultipleFT).then(function () {
                     log.info("Entered FT name");
                     browser.sleep(2000);
                 })
@@ -131,9 +132,9 @@ describe('Navigate Task and Create FT(Single & Text)',function () {
 
 
 
-    });
-    */
 
+
+/*
 describe('Navigate Task and Create FT(Single & different Datatype)',function () {
 
     it('should Click on Task Tab', function () {

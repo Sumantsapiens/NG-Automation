@@ -5,7 +5,7 @@ var testdata1=require('../Resources/Testdata.json')
 exports.config= {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['../Tests/spec.js'],
+    specs: ['../Tests/CreateNewFTspec.js'],
     directConnect: true,
 
     jasmineNodeOpts: {
@@ -71,6 +71,20 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
                 }
             }
         });
+        var AllureReporter = require('jasmine-allure-reporter');
+        jasmine.getEnv().addReporter(new AllureReporter({
+            resultsDir: 'allure-results'
+        }));
+
+        jasmine.getEnv().addReporter(new AllureReporter());
+        jasmine.getEnv().afterEach(function(done){
+            browser.takeScreenshot().then(function (png) {
+                allure.createAttachment('Screenshot', function () {
+                    return new Buffer(png, 'base64')
+                }, 'image/png')();
+                done();
+            })
+        });
        },
    onComplete: function() {
        var browserName, browserVersion;
@@ -87,7 +101,7 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
                reportTitle: 'Protractor Test Execution Report',
                outputPath: 'Reports/HTMLReport',
                outputFilename: 'ProtractorTestReport',
-               screenshotPath: 'C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Screenshots',
+               screenshotPath: './Screenshots',
                testBrowser: browserName,
                browserVersion: browserVersion,
                modifiedSuiteName: false,
@@ -96,5 +110,6 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
            };
            new HTMLReport().from('Reports/XML/xmloutput.xml', testConfig);
        });
+
    }
 };

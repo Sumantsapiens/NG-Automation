@@ -3,16 +3,17 @@
 "url":"http://bdmsuat7:18821/login.html",
 "UserId":"Sumant",
 "Pass":"Decision1",
- "TaskName": "AutoTas1",
+ "TaskName": "AutoTas1233",
  "CommunityText":"Sumant",
- "decisionname": "Decn213",
- "FT1": "Sum1",
- "FT2": "Sum2",
- "FT3": "Sum3",
- "Conditions": "test1",
- "Conclusions1": "eligible",
+ "decisionname": "Decn104",
+ "FT1": "FT101",
+ "FT2": "FT102",
+ "FT3": "FT103",
+ "Conditions": "TestCond",
+ "Conclusions1": "E",
  "Conclusion2": "eligible",
- "TestValues": "test1"
-
+ "TestValues": "TestCond",
+ "SingleFT": "TestDemo",
+  "MultipleFT": "TestDemo1"
 
 }

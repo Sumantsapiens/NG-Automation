@@ -121,8 +121,8 @@ describe('Create new decision', function () {
 
 
 describe('Navigate to Task Model DV , Validate and Test', function () {
-    /*
-        it('should Click on Task Tab', function () {
+
+      /*  it('should Click on Task Tab', function () {
             try {
                 //throw new Error('Something bad happened');
                 let condition = EC.urlContains("http://bdmsuat7:18821/enterprise/index.html#/home")
@@ -167,18 +167,7 @@ describe('Navigate to Task Model DV , Validate and Test', function () {
             }
         });
 
-            it('should Select decision Link', function () {
-                try {
-
-
-                    Task.DecisionLink.click();
-                    log.info("Decision Selected Successfully")
-                    browser.sleep(2000);
-                } catch (e) {
-                    console.log("", e);
-                    log.error(e.message, e);
-                }
-            });*/
+*/
 
     it('Should Click on Decision ', async function () {
         try {
@@ -366,8 +355,76 @@ describe('Navigate to Task Model DV , Validate and Test', function () {
                             let condition1 = EC.visibilityOf(DVModel.ResultsText)
                             browser.wait(condition1, 5000)
                             DVModel.ResultsText.getText().then(function (text) {
-                                log.info('Testing Results= ' + text);
-                                console.log('Testing Results= ' + text)
+                                log.info('RFV Testing Results= ' + text);
+                                console.log('RFV Testing Results= ' + text)
+                            })
+
+                        })
+                    })
+
+                })
+
+            })
+        } catch (e) {
+            console.log("", e);
+            log.error(e.message, e);
+        }
+    });
+    it('should Navigate back to DV ', async function () {
+        try {
+            await RFVModeling.RFVToDVNavigation.click().then(function () {
+            log.info('Navigated back to DV')
+            })
+        }catch (e) {
+            console.log("", e);
+            log.error(e.message, e);
+        }
+    });
+    it('should Validate DV', async function () {
+        try {
+            browser.sleep(1000);
+            await browser.actions().mouseMove(DVModel.ValidationIcon).click().perform().then(async function () {
+                log.info('clicked on the Validation icon');
+                browser.sleep(1000);
+                await browser.actions().mouseMove(DVModel.Validateplayicon).click().perform().then(function () {
+                    log.info('clicked on validation play icon')
+                    browser.waitForAngular()
+                    RFVModeling.Messagedescription.then(function (msgtext) {
+                        for (var i = 0; i < msgtext.length; i++) {
+                            msgtext[i].getText().then(function (text1) {
+                                log.info('Validation message is' + text1)
+                                console.log(text1)
+                                expect(text1).toBe('This Decision is valid.');
+                            })
+                        }
+                    })
+                    browser.sleep(5000);
+                })
+            })
+
+        } catch (e) {
+            console.log("", e);
+            log.error(e.message, e);
+        }
+    });
+    it('should Perform DV Testing', function () {
+        try {
+            DVModel.ValidationIcon.click().then(function () {
+                browser.actions().mouseMove(DVModel.TestingIcon).click().perform().then(function () {
+                    log.info('clicked on Testing')
+                    DVModel.TestingInputValues.then(async function (items) {
+                        log.info('length of cells' + items.length)
+                        for (var i = 0; i < items.length; i++) {
+                            await items[i].sendKeys(data1.TestValues)
+                            browser.sleep(500)
+
+                        }
+                        DVModel.TestingPlayButton.click().then(function () {
+                            let condition1 = EC.visibilityOf(DVModel.ResultsText)
+                            browser.wait(condition1, 5000)
+                            DVModel.ResultsText.getText().then(function (text) {
+                                log.info('DV Testing Results= ' + text);
+                                console.log('DV Testing Results= ' + text)
                             })
 
                         })

@@ -7,7 +7,7 @@ function RFVModel() {
     this.RFVPageDisplay=element(by.id('gridWrapper'));
     this.Rfvfirstcell=element(by.css('*[class=\'wj-cell dt_condition_cell\']'));
     this.cellpopup=element(by.css('*[class="cell-popup__content"]'));
-    this.RFVname=element(by.linkText('Decin1 (View: Blue) [V0]'));
+    this.RFVname=element(by.linkText('Decn213 (View: Base) [V0]'));
     this.RFVTab=element(by.className('navigation-menu__item u-flex-child--static navigation-menu__item__ruleFamilies ng-star-inserted'));
     this.RFVConclusioncell=element(by.xpath('//*[@class=\'decision-table__conclusion-cell--stretch ng-star-inserted\']'));
     this.ConclusionOperand=element(by.xpath('//*[@class="wj-cell dt_conclusion_cell"]/input[@class=\'wj-grid-editor wj-form-control\']'));
@@ -18,5 +18,6 @@ function RFVModel() {
     this.CreateDiagonallink=element(by.xpath('//*[@title=\'Creates additional rows with opposite logic\']'));
     this.RFVConclusionCellsAlt=element.all(by.xpath('//*[@class="wj-cell wj-alt dt_conclusion_cell"]//*[@class="decision-table__conclusion-cell--stretch ng-star-inserted"]'))
     this.RFVConclusionCells1=element.all(by.xpath('//*[@class="wj-cell dt_conclusion_cell"]//*[@class="decision-table__conclusion-cell--stretch ng-star-inserted"]'))
+    this.RFVToDVNavigation=element(by.xpath('//*[@id="body"]/dcn-enterprise-app/dcn-shell/div/dcn-breadcrumb/div/div[2]/a/div/span[1]'))
 };
 module.exports=new RFVModel();
