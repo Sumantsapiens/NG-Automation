@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1581155757395' stop='1581155768299'>
+    <name>Create FT(Multiple &amp; Text)</name>
+    <title>Create FT(Multiple &amp; Text)</title>
+    <test-cases>
+        <test-case start='1581155757396' status='undefined'>
+            <name>should Click on Create new FT Button </name>
+            <title>should Click on Create new FT Button </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581155757396' status='failed' stop='1581155758975'>
+            <name>should Click on Create new FT Button </name>
+            <title>should Click on Create new FT Button </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7dbb4dcc-5c26-47c0-b9b1-a6e508b2a04e-attachment.png' type='image/png' size='67114'/>
+            </attachments>
+            <failure>
+                <message>Failed: element click intercepted: Element &lt;button _ngcontent-c22="" class="task-facts__create-button" ng-reflect-permissions="FT_WRITE" ng-reflect-permissions-check-strategy="all" ng-reflect-disabled="false">...&lt;/button> is not clickable at point (275, 135). Other element would receive the click: &lt;div _ngcontent-c26="" class="spec-body mat-dialog-content" mat-dialog-content="">...&lt;/div>
+                  (Session info: chrome=79.0.3945.130)
+                  (Driver info: chromedriver=79.0.3945.16 (93fcc21110c10dbbd49bbff8f472335360e31d05-refs/branch-heads/3945@{#262}),platform=Windows NT 10.0.17763 x86_64)</message>
+                <stack-trace>WebDriverError: element click intercepted: Element &lt;button _ngcontent-c22="" class="task-facts__create-button" ng-reflect-permissions="FT_WRITE" ng-reflect-permissions-check-strategy="all" ng-reflect-disabled="false">...&lt;/button> is not clickable at point (275, 135). Other element would receive the click: &lt;div _ngcontent-c26="" class="spec-body mat-dialog-content" mat-dialog-content="">...&lt;/div>
+                  (Session info: chrome=79.0.3945.130)
+                  (Driver info: chromedriver=79.0.3945.16 (93fcc21110c10dbbd49bbff8f472335360e31d05-refs/branch-heads/3945@{#262}),platform=Windows NT 10.0.17763 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebElement.click()
+                    at Driver.schedule (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at WebElement.schedule_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2010:25)
+                    at WebElement.click (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2092:17)
+                    at actionFn (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:89:44)
+                    at Array.map (&lt;anonymous>)
+                    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:461:65
+                    at ManagedPromise.invokeCallback_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at UserContext.&lt;anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:88:40)
+                    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                From: Task: Run it("should Click on Create new FT Button ") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:85:9)
+                    at addSpecsToSuite (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:83:5)
+                    at Module._compile (internal/modules/cjs/loader.js:1144:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1164:10)
+                    at Module.load (internal/modules/cjs/loader.js:993:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:892:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1581155758975' status='undefined'>
+            <name>should Enter FT name in text area</name>
+            <title>should Enter FT name in text area</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581155758975' status='passed' stop='1581155763999'>
+            <name>should Enter FT name in text area</name>
+            <title>should Enter FT name in text area</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='34d148e1-02d9-451e-9546-e1ee41e6faf7-attachment.png' type='image/png' size='68593'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581155764000' status='undefined'>
+            <name>should Select Multiple Values</name>
+            <title>should Select Multiple Values</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581155764000' status='passed' stop='1581155764667'>
+            <name>should Select Multiple Values</name>
+            <title>should Select Multiple Values</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fca969f9-4048-4a27-83ca-80e79a37492f-attachment.png' type='image/png' size='68560'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581155764667' status='undefined'>
+            <name>should Click on Ok Button</name>
+            <title>should Click on Ok Button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581155764667' status='passed' stop='1581155768298'>
+            <name>should Click on Ok Button</name>
+            <title>should Click on Ok Button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='926cb61a-a85e-4b91-b8fc-de71c8ed772c-attachment.png' type='image/png' size='68585'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

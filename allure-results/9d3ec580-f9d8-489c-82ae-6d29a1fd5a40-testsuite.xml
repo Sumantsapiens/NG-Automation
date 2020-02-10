@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1581326138078' stop='1581326145916'>
+    <name>Create FT(Multiple &amp; Text)</name>
+    <title>Create FT(Multiple &amp; Text)</title>
+    <test-cases>
+        <test-case start='1581326138078' status='undefined'>
+            <name>should Click on Create new FT Button </name>
+            <title>should Click on Create new FT Button </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581326138078' status='passed' stop='1581326138631'>
+            <name>should Click on Create new FT Button </name>
+            <title>should Click on Create new FT Button </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='463f38b9-fce8-47a2-abe9-64e8921a897a-attachment.png' type='image/png' size='69440'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581326138631' status='undefined'>
+            <name>should Enter FT name in text area</name>
+            <title>should Enter FT name in text area</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581326138631' status='passed' stop='1581326142038'>
+            <name>should Enter FT name in text area</name>
+            <title>should Enter FT name in text area</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a3cb3c26-f7ac-4993-af18-5d031a647435-attachment.png' type='image/png' size='69427'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581326142038' status='undefined'>
+            <name>should Select Multiple Values</name>
+            <title>should Select Multiple Values</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581326142038' status='passed' stop='1581326142490'>
+            <name>should Select Multiple Values</name>
+            <title>should Select Multiple Values</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='874b221a-fced-4aa0-b7ee-d286791832bd-attachment.png' type='image/png' size='69368'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581326142490' status='undefined'>
+            <name>should Click on Ok Button</name>
+            <title>should Click on Ok Button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581326142490' status='passed' stop='1581326145915'>
+            <name>should Click on Ok Button</name>
+            <title>should Click on Ok Button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2ec501eb-e72a-4753-bbb2-0acf8dd47cd0-attachment.png' type='image/png' size='64558'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

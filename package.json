@@ -2,25 +2,24 @@
   "name": "NGAutomation",
   "version": "1.0.0",
   "scripts": {
-    "protractortest": "protractor conf.js",
-    
+    "protractortest": "protractor conf.js"
   },
   "dependencies": {
-    "protractor": "^5.4.3",
-    "jasmine-data-provider": "^2.2.0",
-    "selenium-webdriver": "^4.0.0-alpha.5",
+    "allure-commandline": "^2.13.0",
+    "fs-extra": "8.1.0",
     "jasmine": "^3.5.0n",
-    "type": "2.0.0",
-    "module": "1.2.5",
+    "jasmine-allure-reporter": "1.0.2",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-reporters": "2.3.2",
     "jasmine-reporters-with-custom-junit-reporter": "2.3.5",
     "jasmine-spec-reporter": "4.2.1",
-    "jasmine-reporters": "2.3.2",
-    "protractor-html-reporter-2": "1.0.4",
-    "fs-extra": "8.1.0",
     "log4js": "6.1.0",
-    "xlsx": "^0.15.5",
-    "jasmine-allure-reporter": "1.0.2",
-    "allure-commandline": "^2.13.0"
-
+    "module": "1.2.5",
+    "nodemailer": "^6.4.2",
+    "protractor": "^5.4.3",
+    "protractor-html-reporter-2": "1.0.4",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "type": "2.0.0",
+    "xlsx": "^0.15.5"
   }
 }

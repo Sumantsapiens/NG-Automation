@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1581324642002' stop='1581324674028'>
+    <name>Navigate Task and Create FT(Single &amp; Text)</name>
+    <title>Navigate Task and Create FT(Single &amp; Text)</title>
+    <test-cases>
+        <test-case start='1581324642003' status='undefined'>
+            <name>should Click on Task Tab</name>
+            <title>should Click on Task Tab</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581324642003' status='passed' stop='1581324663506'>
+            <name>should Click on Task Tab</name>
+            <title>should Click on Task Tab</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='525732b2-532d-456b-8054-d703ad17cb39-attachment.png' type='image/png' size='25969'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581324663506' status='undefined'>
+            <name>should Select a task from list of tasks</name>
+            <title>should Select a task from list of tasks</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581324663506' status='passed' stop='1581324664395'>
+            <name>should Select a task from list of tasks</name>
+            <title>should Select a task from list of tasks</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='06d7e248-41f2-4ba2-84c1-bb02f8de9c0f-attachment.png' type='image/png' size='65405'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581324664395' status='undefined'>
+            <name>should Select Fact type tab from tasks</name>
+            <title>should Select Fact type tab from tasks</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581324664395' status='passed' stop='1581324664936'>
+            <name>should Select Fact type tab from tasks</name>
+            <title>should Select Fact type tab from tasks</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1e98cf06-855b-4fda-a529-b6bf16ecb91b-attachment.png' type='image/png' size='30443'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581324664936' status='undefined'>
+            <name>should Click on Create new FT Button </name>
+            <title>should Click on Create new FT Button </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581324664936' status='passed' stop='1581324666603'>
+            <name>should Click on Create new FT Button </name>
+            <title>should Click on Create new FT Button </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1027bf04-8118-4dd3-b371-899947e59e64-attachment.png' type='image/png' size='63342'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581324666603' status='undefined'>
+            <name>should Enter FT name in text area</name>
+            <title>should Enter FT name in text area</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581324666603' status='passed' stop='1581324670417'>
+            <name>should Enter FT name in text area</name>
+            <title>should Enter FT name in text area</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0452dbc6-886e-413c-9fc6-b0c7f78279a4-attachment.png' type='image/png' size='67115'/>
+            </attachments>
+        </test-case>
+        <test-case start='1581324670417' status='undefined'>
+            <name>should Click on Ok Button</name>
+            <title>should Click on Ok Button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1581324670417' status='passed' stop='1581324674025'>
+            <name>should Click on Ok Button</name>
+            <title>should Click on Ok Button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a3874635-2c14-4951-92f6-7b7f0be2f3d1-attachment.png' type='image/png' size='67115'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

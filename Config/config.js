@@ -110,6 +110,39 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
            };
            new HTMLReport().from('Reports/XML/xmloutput.xml', testConfig);
        });
+       var nodemailer = require("nodemailer");
+       return new Promise(function (fulfill, reject){
+           var transporter = nodemailer.createTransport({
+               host: "smtp-mail.outlook.com",
+               port: 587,
+               secure: false, // use SSL
+               auth: {
+                   user: 'sumant.pattanshetti@sapiens.com',
+                   pass: 'Decision3'
+               },
+               tls: {
+                   ciphers:'SSLv3'
+               }
+           });
+           var mailOptions = {
+               from: '"Sumant" <sumant.pattanshetti@sapiens.com>', // sender address (who sends)
+               to: 'sumant.pattanshetti@sapiens.com' , // list of receivers (who receives)
+               subject: 'NG Automation Report', // Subject line
+               text: 'Hi', // plaintext body
+               html: '<b>Hi Sumant </b><br> This is the FT Test Excecution Report please find the attachments', // html body
+               attachments:[
+                   {
+                       'path': './Reports/HTMLReport/ProtractorTestReport.html'
+                   }
+               ]
+           };
+           transporter.sendMail(mailOptions, function(error, info){
+               if(error){
+                   reject(err);
+               }
+               fulfill(info);
+           });
+       });
 
    }
 };
