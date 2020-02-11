@@ -85,6 +85,7 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
                 done();
             })
         });
+
        },
    onComplete: function() {
        var browserName, browserVersion;
@@ -105,7 +106,7 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
                testBrowser: browserName,
                browserVersion: browserVersion,
                modifiedSuiteName: false,
-               screenshotsOnlyOnFailure: true,
+               screenshotsOnlyOnFailure: false,
                testPlatform: platform
            };
            new HTMLReport().from('Reports/XML/xmloutput.xml', testConfig);
@@ -129,7 +130,7 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
                to: 'sumant.pattanshetti@sapiens.com' , // list of receivers (who receives)
                subject: 'NG Automation Report', // Subject line
                text: 'Hi', // plaintext body
-               html: '<b>Hi Sumant </b><br> This is the FT Test Excecution Report please find the attachments', // html body
+               html: '<b>Hi Ritu </b><br> This is the E2E Test Excecution Report please find the attachments', // html body
                attachments:[
                    {
                        'path': './Reports/HTMLReport/ProtractorTestReport.html'
