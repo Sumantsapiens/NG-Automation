@@ -44,3 +44,15 @@
 [0211/113929.863:ERROR:exception_snapshot_win.cc(98)] thread ID 26336 not found in process
 [0211/113929.887:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
 [0211/113929.887:ERROR:exception_snapshot_win.cc(98)] thread ID 3932 not found in process
+[0213/111747.361:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0213/111747.365:ERROR:exception_snapshot_win.cc(98)] thread ID 22656 not found in process
+[0213/111747.370:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0213/111747.370:ERROR:exception_snapshot_win.cc(98)] thread ID 9608 not found in process
+[0213/111747.443:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0213/111747.443:ERROR:exception_snapshot_win.cc(98)] thread ID 35852 not found in process
+[0213/112551.810:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0213/112551.819:ERROR:exception_snapshot_win.cc(98)] thread ID 33992 not found in process
+[0213/112551.820:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0213/112551.825:ERROR:exception_snapshot_win.cc(98)] thread ID 13024 not found in process
+[0213/112551.865:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0213/112551.865:ERROR:exception_snapshot_win.cc(98)] thread ID 18288 not found in process

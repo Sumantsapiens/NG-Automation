@@ -1,6 +1,6 @@
 //var data = require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Resources\\Testdata.json');
 function Taskpage() {
-var data=require('../Resources/Testdata.json')
+    var data = require('../Resources/Testdata.json')
 
     this.TaskTab = element(by.xpath('//*[@class="navigation-menu__item u-flex-child--static navigation-menu__item__tasks"]'));
     this.tasklink = element(by.partialLinkText(data.TaskName));
@@ -15,7 +15,8 @@ var data=require('../Resources/Testdata.json')
     this.DisplayFormatDrop = element(by.xpath('//fx-field[@label=\'Display Format\']//button[@class="wj-btn wj-btn-default"]'));
     this.AllowedValues = element(by.xpath('//fx-field[@label=\'Allowed Values\']//button[@class="wj-btn wj-btn-default"]'));
     this.FTOkButton = element(by.buttonText('OK'));
-    this.DatatypeList=element.all(by.xpath('//*[@id="_dropdown"]//*[@class="wj-listbox-item"]'));
-    this.DatatypeTextarea=element(by.xpath('//fx-field[@label="Data Type"]//*[@type="text"]'))
+    this.DatatypeList = element.all(by.xpath('//*[@id="_dropdown"]//*[@class="wj-listbox-item"]'));
+    this.DatatypeTextarea = element(by.xpath('//fx-field[@label="Data Type"]//*[@type="text"]'))
 }
-module.exports=new Taskpage();
+
+module.exports = new Taskpage();

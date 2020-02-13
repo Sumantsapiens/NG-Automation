@@ -1,6 +1,3 @@
-
-//var data= require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Resources\\Testdata.json');
-//var data =require('Resources/Testdata.json');
 var testdata1=require('../Resources/Testdata.json')
 exports.config= {
 
@@ -31,7 +28,7 @@ exports.config= {
         }
     },
     onPrepare: function() {
-var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\Loginpage.js');
+        var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\Loginpage.js');
         browser.manage().timeouts().implicitlyWait(20000)
         browser.ignoreSynchronization=true;
         browser.get(testdata1.url);
@@ -47,12 +44,12 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
             consolidateAll:true,
             savePath:'Reports/XML',
             filePrefix:'xmloutput'
-            
+
         }));
 
         var fs = require('fs-extra');
 
-        fs.emptyDir('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Screenshots', function (err) {
+        fs.emptyDir('./Reports/HTMLReport/Screenshots', function (err) {
             console.log(err);
         });
 
@@ -63,7 +60,7 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
                         var browserName = caps.get('browserName');
 
                         browser.takeScreenshot().then(function (png) {
-                            var stream = fs.createWriteStream('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\Screenshots\\screenshot' + browserName + '-' + result.fullName+ '.png');
+                            var stream = fs.createWriteStream('./Reports/HTMLReport/Screenshots/' + browserName + '-' + result.fullName+ '.png');
                             stream.write(new Buffer(png, 'base64'));
                             stream.end();
                         });
@@ -86,64 +83,64 @@ var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation
             })
         });
 
-       },
-   onComplete: function() {
-       var browserName, browserVersion;
-       var capsPromise = browser.getCapabilities();
+    },
+    onComplete: function() {
+        var browserName, browserVersion;
+        var capsPromise = browser.getCapabilities();
 
-       capsPromise.then(function (caps) {
-           browserName = caps.get('browserName');
-           browserVersion = caps.get('version');
-           platform = caps.get('platform');
+        capsPromise.then(function (caps) {
+            browserName = caps.get('browserName');
+            browserVersion = caps.get('version');
+            platform = caps.get('platform');
 
-           var HTMLReport = require('protractor-html-reporter-2');
+            var HTMLReport = require('protractor-html-reporter-2');
 
-           testConfig = {
-               reportTitle: 'Protractor Test Execution Report',
-               outputPath: 'Reports/HTMLReport',
-               outputFilename: 'ProtractorTestReport',
-               screenshotPath: './Screenshots',
-               testBrowser: browserName,
-               browserVersion: browserVersion,
-               modifiedSuiteName: false,
-               screenshotsOnlyOnFailure: false,
-               testPlatform: platform
-           };
-           new HTMLReport().from('Reports/XML/xmloutput.xml', testConfig);
-       });
-       var nodemailer = require("nodemailer");
-       return new Promise(function (fulfill, reject){
-           var transporter = nodemailer.createTransport({
-               host: "smtp-mail.outlook.com",
-               port: 587,
-               secure: false, // use SSL
-               auth: {
-                   user: 'sumant.pattanshetti@sapiens.com',
-                   pass: 'Decision3'
-               },
-               tls: {
-                   ciphers:'SSLv3'
-               }
-           });
-           var mailOptions = {
-               from: '"Sumant" <sumant.pattanshetti@sapiens.com>', // sender address (who sends)
-               to: 'sumant.pattanshetti@sapiens.com' , // list of receivers (who receives)
-               subject: 'NG Automation Report', // Subject line
-               text: 'Hi', // plaintext body
-               html: '<b>Hi Ritu </b><br> This is the E2E Test Excecution Report please find the attachments', // html body
-               attachments:[
-                   {
-                       'path': './Reports/HTMLReport/ProtractorTestReport.html'
-                   }
-               ]
-           };
-           transporter.sendMail(mailOptions, function(error, info){
-               if(error){
-                   reject(err);
-               }
-               fulfill(info);
-           });
-       });
+            testConfig = {
+                reportTitle: 'Protractor Test Execution Report',
+                outputPath: 'Reports/HTMLReport',
+                outputFilename: 'ProtractorTestReport',
+                screenshotPath: './Screenshots',
+                testBrowser: browserName,
+                browserVersion: browserVersion,
+                modifiedSuiteName: false,
+                screenshotsOnlyOnFailure: true,
+                testPlatform: platform
+            };
+            new HTMLReport().from('Reports/XML/xmloutput.xml', testConfig);
+        });
+        var nodemailer = require("nodemailer");
+        return new Promise(function (fulfill, reject){
+            var transporter = nodemailer.createTransport({
+                host: "smtp-mail.outlook.com",
+                port: 587,
+                secure: false, // use SSL
+                auth: {
+                    user: 'sumant.pattanshetti@sapiens.com',
+                    pass: 'Decision3'
+                },
+                tls: {
+                    ciphers:'SSLv3'
+                }
+            });
+            var mailOptions = {
+                from: '"Sumant" <sumant.pattanshetti@sapiens.com>', // sender address (who sends)
+                to: 'sumant.pattanshetti@sapiens.com' , // list of receivers (who receives)
+                subject: 'NG Automation Report', // Subject line
+                text: 'Hi', // plaintext body
+                html: '<b>Hi Sumant </b><br> This is the E2E Test Excecution Report please find the attachments', // html body
+                attachments:[
+                    {
+                        'path': './Reports/HTMLReport/ProtractorTestReport.html'
+                    }
+                ]
+            };
+            transporter.sendMail(mailOptions, function(error, info){
+                if(error){
+                    reject(err);
+                }
+                fulfill(info);
+            });
+        });
 
-   }
+    }
 };

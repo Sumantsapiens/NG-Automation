@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="1" tests="10" time="39.537">
- <testsuite name="Navigate Task and Create FT(Single &amp; Text)" timestamp="2020-02-11T12:18:50" hostname="localhost" time="30.268" errors="0" tests="6" skipped="0" disabled="0" failures="0">
-  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Click on Task Tab" time="20.424" />
-  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Select a task from list of tasks" time="0.845" />
-  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Select Fact type tab from tasks" time="0.521" />
-  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Click on Create new FT Button " time="1.437" />
-  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Enter FT name in text area" time="3.496" />
-  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Click on Ok Button" time="3.543" />
+<testsuites disabled="0" errors="0" failures="1" tests="10" time="42.159">
+ <testsuite name="Navigate Task and Create FT(Single &amp; Text)" timestamp="2020-02-13T12:03:10" hostname="localhost" time="32.92" errors="0" tests="6" skipped="0" disabled="0" failures="0">
+  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Click on Task Tab" time="21.871" />
+  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Select a task from list of tasks" time="0.92" />
+  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Select Fact type tab from tasks" time="0.476" />
+  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Click on Create new FT Button " time="1.879" />
+  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Enter FT name in text area" time="4.126" />
+  <testcase classname="Navigate Task and Create FT(Single &amp; Text)" name="should Click on Ok Button" time="3.645" />
  </testsuite>
- <testsuite name="Create FT(Multiple &amp; Text)" timestamp="2020-02-11T12:19:21" hostname="localhost" time="9.269" errors="0" tests="4" skipped="0" disabled="0" failures="1">
-  <testcase classname="Create FT(Multiple &amp; Text)" name="should Click on Create new FT Button " time="1.526">
+ <testsuite name="Create FT(Multiple &amp; Text)" timestamp="2020-02-13T12:03:43" hostname="localhost" time="9.239" errors="0" tests="4" skipped="0" disabled="0" failures="1">
+  <testcase classname="Create FT(Multiple &amp; Text)" name="should Click on Create new FT Button " time="1.517">
    <failure type="exception" message="Failed: element click intercepted: Element &lt;button _ngcontent-c22=&quot;&quot; class=&quot;task-facts__create-button&quot; ng-reflect-permissions=&quot;FT_WRITE&quot; ng-reflect-permissions-check-strategy=&quot;all&quot; ng-reflect-disabled=&quot;false&quot;&gt;...&lt;/button&gt; is not clickable at point (275, 135). Other element would receive the click: &lt;form _ngcontent-c27=&quot;&quot; novalidate=&quot;novalidate&quot; class=&quot;ng-dirty ng-invalid ng-touched&quot;&gt;...&lt;/form&gt;
   (Session info: chrome=80.0.3987.87)
   (Driver info: chromedriver=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}),platform=Windows NT 10.0.17763 x86_64)"><![CDATA[WebDriverError: element click intercepted: Element <button _ngcontent-c22="" class="task-facts__create-button" ng-reflect-permissions="FT_WRITE" ng-reflect-permissions-check-strategy="all" ng-reflect-disabled="false">...</button> is not clickable at point (275, 135). Other element would receive the click: <form _ngcontent-c27="" novalidate="novalidate" class="ng-dirty ng-invalid ng-touched">...</form>
@@ -33,7 +33,7 @@ From: Task: WebElement.click()
     at ElementArrayFinder.applyAction_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
     at ElementArrayFinder.<computed> [as click] (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
     at ElementFinder.<computed> [as click] (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
-    at UserContext.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:88:40)
+    at UserContext.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:88:36)
     at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
     at new ManagedPromise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
     at ControlFlow.promise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
@@ -53,19 +53,19 @@ From: Task: Run it("should Click on Create new FT Button ") in control flow
     at QueueRunner.execute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
 From asynchronous test: 
 Error
-    at Suite.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:85:9)
+    at Suite.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:85:5)
     at addSpecsToSuite (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
     at Env.describe (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
     at describe (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
-    at Object.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:83:5)
+    at Object.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:83:1)
     at Module._compile (internal/modules/cjs/loader.js:1151:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1171:10)
     at Module.load (internal/modules/cjs/loader.js:1000:32)
     at Function.Module._load (internal/modules/cjs/loader.js:899:14)]]>
    </failure>
   </testcase>
-  <testcase classname="Create FT(Multiple &amp; Text)" name="should Enter FT name in text area" time="3.46" />
-  <testcase classname="Create FT(Multiple &amp; Text)" name="should Select Multiple Values" time="0.743" />
-  <testcase classname="Create FT(Multiple &amp; Text)" name="should Click on Ok Button" time="3.539" />
+  <testcase classname="Create FT(Multiple &amp; Text)" name="should Enter FT name in text area" time="3.785" />
+  <testcase classname="Create FT(Multiple &amp; Text)" name="should Select Multiple Values" time="0.494" />
+  <testcase classname="Create FT(Multiple &amp; Text)" name="should Click on Ok Button" time="3.441" />
  </testsuite>
 </testsuites>

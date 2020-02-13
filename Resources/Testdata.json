@@ -1,19 +1,17 @@
-
 {
-"url":"http://bdmsuat7:18821/login.html",
-"UserId":"Sumant",
-"Pass":"Decision1",
- "TaskName": "AutoTas012",
- "CommunityText":"Sumant",
- "decisionname": "Decn108",
- "FT1": "FT101",
- "FT2": "FT102",
- "FT3": "FT103",
- "Conditions": "TestCond",
- "Conclusions1": "eligible",
- "Conclusion2": "eligible",
- "TestValues": "TestCond",
- "SingleFT": "00112",
+  "url": "http://bdmsuat7:18821/login.html",
+  "UserId": "Sumant",
+  "Pass": "Decision1",
+  "TaskName": "AutoTas012",
+  "CommunityText": "Sumant",
+  "decisionname": "Decn108",
+  "FT1": "FT101",
+  "FT2": "FT102",
+  "FT3": "FT103",
+  "Conditions": "TestCond",
+  "Conclusions1": "eligible",
+  "Conclusion2": "eligible",
+  "TestValues": "TestCond",
+  "SingleFT": "00112",
   "MultipleFT": "909"
-
 }

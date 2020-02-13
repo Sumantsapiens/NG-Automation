@@ -25,21 +25,14 @@ log4js.configure(
             }
         },
         categories: {
-            default: { appenders: ['file', 'dateFile'], level: 'Debug' }
+            default: {appenders: ['file', 'dateFile'], level: 'Debug'}
         }
     }
 );
 
-/*var logger = log4js.getLogger('things');
-logger.debug('This little thing went to market');
-logger.info('This little thing stayed at home');
-logger.error('This little thing had roast beef');
-logger.fatal('This little thing had none');
-logger.trace('and this little thing went wee, wee, wee, all the way home.');*/
 
-
-var logger  = log4js.getLogger('things');
+var logger = log4js.getLogger('things');
 
 Object.defineProperty(exports, "LOG", {
-    value:logger,
+    value: logger,
 });

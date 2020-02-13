@@ -6,11 +6,10 @@ var logger = require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Autom
 var DVModel = require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\DV-ModelingPage.js');
 var RFVModeling = require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\RFVModel.js');
 var log = logger.LOG;
-var XL = require('../Resources/XLSXData.js');
 let EC = ExpectedConditions;
 var data1 = require('../Resources/Testdata.json');
 var FTcreation = require('../Resources/FTNameHelper.js');
-
+var Exceldata = require('../Resources/ExcelHelper.js');
 browser.ignoreSynchronization = true;
 
 describe('Create new decision', function () {
@@ -31,7 +30,7 @@ describe('Create new decision', function () {
         try {
             let Newcond = EC.presenceOf(home.communityname);
             browser.wait(Newcond, 5000);
-            home.CommunityTextarea.sendKeys(data1.CommunityText);
+            home.CommunityTextarea.sendKeys(Exceldata.Worksheet1['B5'].v);
             browser.sleep(2000)
             home.CommunityTextarea.sendKeys(protractor.Key.ENTER);
             browser.sleep(2000)
@@ -46,7 +45,7 @@ describe('Create new decision', function () {
         try {
             expect(home.TaskName.isEnabled);
             if (home.TaskName.isEnabled()) {
-                home.TaskName.sendKeys(data1.TaskName);
+                home.TaskName.sendKeys(Exceldata.Worksheet1['B4'].v);
                 browser.sleep(1000)
                 home.TaskName.sendKeys(protractor.Key.ENTER);
 
@@ -62,7 +61,7 @@ describe('Create new decision', function () {
     browser.sleep(3000)
     it('Should Select Decision Name ', function () {
         try {
-            home.decisionname.sendKeys(data1.decisionname);
+            home.decisionname.sendKeys(Exceldata.Worksheet1['B6'].v);
             browser.sleep(1000)
             home.decisionname.sendKeys(protractor.Key.ENTER);
             browser.sleep(3000)
@@ -105,12 +104,12 @@ describe('Create new decision', function () {
     it('should Click on Ok button', function () {
         try {
             home.Clickok.click().then(function () {
-                let condition=EC.presenceOf(DVModel.canvaspage)
-                browser.wait(condition,5000)
+                let condition = EC.presenceOf(DVModel.canvaspage)
+                browser.wait(condition, 5000)
                 log.info('Canvas page displayed')
                 browser.sleep(5000)
             })
-          ;
+            ;
 
         } catch (e) {
             console.log("", e);
@@ -119,60 +118,12 @@ describe('Create new decision', function () {
     });
 });
 
-
-describe('Navigate to Task Model DV , Validate and Test', function () {
-
-      /*  it('should Click on Task Tab', function () {
-            try {
-                //throw new Error('Something bad happened');
-                let condition = EC.urlContains("http://bdmsuat7:18821/enterprise/index.html#/home")
-                browser.wait(condition, 5000);
-                Task.TaskTab.click();
-                browser.sleep(2000);
-                log.info("Task tab has been clicked successfuly");
-
-
-            } catch (e) {
-                console.log(e.message, e);
-                log.error("error in clicking task name", e.message, e);
-            }
-
-        });
-        it('should Select the Task created in previous suite', function () {
-            try {
-                Task.tasklink.click();
-                log.info("Task has been seleceted");
-                browser.sleep(5000);
-            } catch (e) {
-                console.log("", e);
-                log.error(e.message, e);
-            }
-
-        });
-
-        it('should Cick on RFV TAB and select RFV ', function () {
-            try {
-                RFVModeling.RFVTab.click().then(function () {
-                    browser.sleep(2000)
-                    log.info("Clcked on RFV TAB");
-                    RFVModeling.RFVname.click();
-                    log.debug('Clicked on RFV Name')
-                    browser.waitForAngular();
-                })
-
-
-            } catch (e) {
-                console.log("", e);
-                log.error(e.message, e);
-            }
-        });
-
-*/
+describe('Model DV , Validate and Test', function () {
 
     it('Should Click on Decision ', async function () {
         try {
-            let condition=EC.presenceOf(DVModel.canvaspage)
-            browser.wait(condition,4000)
+            let condition = EC.presenceOf(DVModel.canvaspage)
+            browser.wait(condition, 4000)
             var actions = browser.actions();
             return actions.mouseMove(DVModel.canvaspage, {x: 675, y: 10}).click().perform();
             log.info("Moved to element and clicked on Decision");
@@ -181,39 +132,19 @@ describe('Navigate to Task Model DV , Validate and Test', function () {
             log.error(e.message, e);
         }
     });
+    Exceldata.FTNamesList.forEach(function (data) {
+        it('should Enter FT1 from DV diagram', async function () {
+            try {
+                await FTcreation.CreationofFT(data.FactTypes);
+                browser.sleep(500)
+            } catch (e) {
+                console.log("", e);
+                log.error(e.message, e);
+            }
 
-    it('should Enter FT1 from DV diagram', async function () {
-        try {
-            await FTcreation.CreationofFT(data1.FT1);
-            browser.sleep(500)
-        } catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }
-
+        })
     })
-    it('should Enter FT2 from DV diagram', async function () {
-        try {
-            await FTcreation.CreationofFT(data1.FT2);
-            browser.sleep(500)
-        } catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }
-
-    })
-    it('should Enter FT2 from DV diagram', async function () {
-        try {
-            await FTcreation.CreationofFT(data1.FT3);
-            browser.sleep(500)
-        } catch (e) {
-            console.log("", e);
-            log.error(e.message, e);
-        }
-
-    });
-
-    it('Should Open Decision ',  function () {
+    it('Should Open Decision ', function () {
         try {
             var actions = browser.actions();
             return actions.mouseMove(DVModel.canvaspage, {x: 675, y: 10}).doubleClick().perform();
@@ -242,7 +173,7 @@ describe('Navigate to Task Model DV , Validate and Test', function () {
                     await RFVModeling.ConditionFTOperand.sendKeys(data1.Conditions).then(async function () {
                         browser.sleep(500)
                         log.info('Keys entered and entered the Enter button  code')
-                       await RFVModeling.ConditionFTOperand.sendKeys(protractor.Key.ENTER);
+                        await RFVModeling.ConditionFTOperand.sendKeys(protractor.Key.ENTER);
                         log.info('Enter button clicked')
                         browser.sleep(1000)
                     })
@@ -373,9 +304,9 @@ describe('Navigate to Task Model DV , Validate and Test', function () {
     it('should Navigate back to DV ', async function () {
         try {
             await RFVModeling.RFVToDVNavigation.click().then(function () {
-            log.info('Navigated back to DV')
+                log.info('Navigated back to DV')
             })
-        }catch (e) {
+        } catch (e) {
             console.log("", e);
             log.error(e.message, e);
         }
