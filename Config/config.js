@@ -2,7 +2,7 @@ var testdata1=require('../Resources/Testdata.json')
 exports.config= {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['../Tests/CreateNewFTspec.js'],
+    specs: ['../Tests/spec.js'],
     directConnect: true,
 
     jasmineNodeOpts: {
