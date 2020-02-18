@@ -15,8 +15,11 @@ function Taskpage() {
     this.DisplayFormatDrop = element(by.xpath('//fx-field[@label=\'Display Format\']//button[@class="wj-btn wj-btn-default"]'));
     this.AllowedValues = element(by.xpath('//fx-field[@label=\'Allowed Values\']//button[@class="wj-btn wj-btn-default"]'));
     this.FTOkButton = element(by.buttonText('OK'));
-    this.DatatypeList = element.all(by.xpath('//*[@id="_dropdown"]//*[@class="wj-listbox-item"]'));
+    this.DatatypeList = element.all(by.css('#_dropdown > div'));
     this.DatatypeTextarea = element(by.xpath('//fx-field[@label="Data Type"]//*[@type="text"]'))
+    this.AllowedValuesList=element.all(by.css('#_dropdown > div'));
+    this.SetVauesTextarea=element(by.xpath('//*[@class="ng-star-inserted"]//input[@placeholder="Add a value"]'))
+    this.AddSetValuesButton=element(by.xpath('//button[@class="add-btn spec-add-button"]'))
 }
 
 module.exports = new Taskpage();

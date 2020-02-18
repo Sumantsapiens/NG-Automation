@@ -346,6 +346,7 @@ describe('Model DV , Validate and Test', function () {
                     DVModel.TestingInputValues.then(async function (items) {
                         log.info('length of cells' + items.length)
                         for (var i = 0; i < items.length; i++) {
+                            items[i].clear();
                             await items[i].sendKeys(data1.TestValues)
                             browser.sleep(500)
 

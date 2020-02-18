@@ -2,7 +2,7 @@ var testdata1=require('../Resources/Testdata.json')
 exports.config= {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['../Tests/spec.js'],
+    specs: ['../Tests/CreateNewFTspec.js'],
     directConnect: true,
 
     jasmineNodeOpts: {
@@ -108,6 +108,7 @@ exports.config= {
             };
             new HTMLReport().from('Reports/XML/xmloutput.xml', testConfig);
         });
+        /*
         var nodemailer = require("nodemailer");
         return new Promise(function (fulfill, reject){
             var transporter = nodemailer.createTransport({
@@ -140,7 +141,7 @@ exports.config= {
                 }
                 fulfill(info);
             });
-        });
+        });*/
 
     }
 };

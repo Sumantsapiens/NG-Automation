@@ -1,20 +1,18 @@
-[2020-02-13T12:00:46.730] [INFO] things - Clicked on task tab
-[2020-02-13T12:00:54.094] [INFO] things - Task has been seleceted
-[2020-02-13T12:00:54.717] [INFO] things - Facttype Tab Clicked
-[2020-02-13T12:00:56.826] [INFO] things - Clicked on Create New FT Button
-[2020-02-13T12:01:06.793] [INFO] things - Entered FT name
-[2020-02-13T12:01:09.425] [INFO] things - Clicked on Ok button
-[2020-02-13T12:01:13.040] [INFO] things - Clicked on Create New FT Button
-[2020-02-13T12:01:18.693] [INFO] things - Entered FT name
-[2020-02-13T12:01:21.909] [INFO] things - Selected Multivalue button
-[2020-02-13T12:01:24.023] [INFO] things - Clicked on Ok button
-[2020-02-13T12:03:29.269] [INFO] things - Clicked on task tab
-[2020-02-13T12:03:31.946] [INFO] things - Task has been seleceted
-[2020-02-13T12:03:32.866] [INFO] things - Facttype Tab Clicked
-[2020-02-13T12:03:33.342] [INFO] things - Clicked on Create New FT Button
-[2020-02-13T12:03:37.012] [INFO] things - Entered FT name
-[2020-02-13T12:03:39.347] [INFO] things - Clicked on Ok button
-[2020-02-13T12:03:43.032] [INFO] things - Clicked on Create New FT Button
-[2020-02-13T12:03:45.964] [INFO] things - Entered FT name
-[2020-02-13T12:03:48.334] [INFO] things - Selected Multivalue button
-[2020-02-13T12:03:48.828] [INFO] things - Clicked on Ok button
+[2020-02-18T14:04:47.653] [INFO] things - Clicked on task tab
+[2020-02-18T14:04:50.864] [INFO] things - Task has been seleceted
+[2020-02-18T14:04:51.764] [INFO] things - Facttype Tab Clicked
+[2020-02-18T14:04:52.326] [INFO] things - Clicked on Create New FT Button
+[2020-02-18T14:04:59.029] [INFO] things - Entered FT name
+[2020-02-18T14:05:01.432] [INFO] things - Clicked on Ok button
+[2020-02-18T14:05:04.931] [INFO] things - Clicked on Create New FT Button
+[2020-02-18T14:05:08.573] [INFO] things - Entered FT name
+[2020-02-18T14:05:11.035] [INFO] things - Selected Multivalue button
+[2020-02-18T14:05:11.766] [INFO] things - Clicked on Ok button
+[2020-02-18T14:05:15.371] [INFO] things - Clicked on Create New FT Button
+[2020-02-18T14:05:21.052] [INFO] things - Entered FT name
+[2020-02-18T14:05:22.448] [INFO] things - cleared textarea
+[2020-02-18T14:05:23.310] [INFO] things - Clicked on Dropdowwn
+[2020-02-18T14:05:24.519] [INFO] things - Yes ! Found option is:Numeric
+[2020-02-18T14:05:25.835] [INFO] things - Yes ! Found option is:Regular set
+[2020-02-18T14:05:26.144] [INFO] things - 1
+[2020-02-18T14:05:34.153] [INFO] things - Clicked on Ok button

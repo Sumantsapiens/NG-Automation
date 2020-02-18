@@ -11,12 +11,12 @@ var CreateFT = function () {
 
 
     this.CreationofFT = async function (Ftname) {
-        browser.sleep(3000)
+        browser.sleep(2000)
         let condition = EC.presenceOf(DVModel.CreateFT);
         browser.wait(condition, 5000);
         await DVModel.CreateFT.sendKeys(Ftname).then(function () {
             log.info('1.Entered the text in text box')
-            browser.sleep(5000)
+            browser.sleep(2000)
         }).then(async function () {
             await DVModel.CreateFT.sendKeys(protractor.Key.ENTER);
             log.info('Clicked Enter button')
