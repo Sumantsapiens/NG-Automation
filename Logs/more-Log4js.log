@@ -1,18 +1,38 @@
-[2020-02-18T14:04:47.653] [INFO] things - Clicked on task tab
-[2020-02-18T14:04:50.864] [INFO] things - Task has been seleceted
-[2020-02-18T14:04:51.764] [INFO] things - Facttype Tab Clicked
-[2020-02-18T14:04:52.326] [INFO] things - Clicked on Create New FT Button
-[2020-02-18T14:04:59.029] [INFO] things - Entered FT name
-[2020-02-18T14:05:01.432] [INFO] things - Clicked on Ok button
-[2020-02-18T14:05:04.931] [INFO] things - Clicked on Create New FT Button
-[2020-02-18T14:05:08.573] [INFO] things - Entered FT name
-[2020-02-18T14:05:11.035] [INFO] things - Selected Multivalue button
-[2020-02-18T14:05:11.766] [INFO] things - Clicked on Ok button
-[2020-02-18T14:05:15.371] [INFO] things - Clicked on Create New FT Button
-[2020-02-18T14:05:21.052] [INFO] things - Entered FT name
-[2020-02-18T14:05:22.448] [INFO] things - cleared textarea
-[2020-02-18T14:05:23.310] [INFO] things - Clicked on Dropdowwn
-[2020-02-18T14:05:24.519] [INFO] things - Yes ! Found option is:Numeric
-[2020-02-18T14:05:25.835] [INFO] things - Yes ! Found option is:Regular set
-[2020-02-18T14:05:26.144] [INFO] things - 1
-[2020-02-18T14:05:34.153] [INFO] things - Clicked on Ok button
+[2020-02-23T13:05:24.085] [INFO] things - Canvas page displayed
+[2020-02-23T13:05:46.861] [INFO] things - 1.Entered the text in text box
+[2020-02-23T13:05:48.965] [INFO] things - Clicked Enter button
+[2020-02-23T13:05:52.136] [INFO] things - 1.Entered the text in text box
+[2020-02-23T13:05:54.342] [INFO] things - Clicked Enter button
+[2020-02-23T13:05:57.493] [INFO] things - 1.Entered the text in text box
+[2020-02-23T13:05:59.674] [INFO] things - Clicked Enter button
+[2020-02-23T13:06:03.657] [INFO] things - length of cells2
+[2020-02-23T13:06:04.083] [INFO] things - clicked on the fist element
+[2020-02-23T13:06:05.550] [INFO] things - Keys entered and entered the Enter button  code
+[2020-02-23T13:06:06.216] [INFO] things - Enter button clicked
+[2020-02-23T13:06:06.477] [INFO] things - clicked on the fist element
+[2020-02-23T13:06:07.926] [INFO] things - Keys entered and entered the Enter button  code
+[2020-02-23T13:06:08.623] [INFO] things - Enter button clicked
+[2020-02-23T13:06:10.150] [INFO] things - Right click Succesfull
+[2020-02-23T13:06:10.152] [INFO] things - Created diagonal elements
+[2020-02-23T13:06:18.066] [INFO] things - Clicked on conclusion cell
+[2020-02-23T13:06:20.373] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-23T13:06:20.374] [INFO] things - Enter button clicked after conclusion
+[2020-02-23T13:06:20.991] [INFO] things - Clicked on conclusion cell
+[2020-02-23T13:06:23.448] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-23T13:06:23.450] [INFO] things - Enter button clicked after conclusion
+[2020-02-23T13:06:23.968] [INFO] things - Clicked on conclusion cell
+[2020-02-23T13:06:26.376] [INFO] things - Keys Entered in Conclusion cell
+[2020-02-23T13:06:26.377] [INFO] things - Enter button clicked after conclusion
+[2020-02-23T13:06:28.037] [INFO] things - clicked on the Validation icon
+[2020-02-23T13:06:29.223] [INFO] things - clicked on validation play icon
+[2020-02-23T13:06:33.213] [INFO] things - Validation message isThis Rule Family is valid.
+[2020-02-23T13:06:39.363] [INFO] things - clicked on Testing
+[2020-02-23T13:06:39.456] [INFO] things - length of cells2
+[2020-02-23T13:06:48.400] [INFO] things - RFV Testing Results= eligible
+[2020-02-23T13:06:49.415] [INFO] things - Navigated back to DV
+[2020-02-23T13:06:51.136] [INFO] things - clicked on the Validation icon
+[2020-02-23T13:06:52.334] [INFO] things - clicked on validation play icon
+[2020-02-23T13:06:53.115] [INFO] things - Validation message isThis Decision is valid.
+[2020-02-23T13:06:58.824] [INFO] things - clicked on Testing
+[2020-02-23T13:06:58.881] [INFO] things - length of cells2
+[2020-02-23T13:07:02.044] [INFO] things - DV Testing Results= eligible

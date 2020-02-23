@@ -11,6 +11,9 @@ var Exceldata = function () {
     var Worksheet4=workbook.Sheets['Sheet5'];
     this.FTDetails = XLSX.utils.sheet_to_json(Worksheet4);
 
+    var Worksheet6=workbook.Sheets['ConditionCells'];
+    this.ConditionCellData=XLSX.utils.sheet_to_json(Worksheet6);
+
 
 }
 module.exports = new Exceldata();
