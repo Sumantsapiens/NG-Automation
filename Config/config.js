@@ -1,5 +1,6 @@
-var testdata1=require('../Resources/Testdata.json')
-exports.config= {
+var testdata1 = require('../Resources/Testdata.json')
+let TodaysDate=require('../Resources/DateTimeSecHelper.js')
+exports.config = {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: ['../Tests/spec.js'],
@@ -9,12 +10,12 @@ exports.config= {
         defaultTimeoutInterval: 2500000
     },
     capabilities: {
-        directConnect:true,
+        directConnect: true,
         'browserName': 'chrome',
         capabilities: {
             'browserName': 'chrome',
 
-            'version':'79.0.3945.117',
+            'version': '79.0.3945.117',
             'loggingPrefs': {
                 'driver': 'WARNING',
                 'server': 'WARNING',
@@ -27,10 +28,10 @@ exports.config= {
 
         }
     },
-    onPrepare: function() {
-        var obj=require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\Loginpage.js');
+    onPrepare: function () {
+        var obj = require('C:\\Users\\sumant.pattanshetti\\WebstormProjects\\NG_Automation1\\PageObjects\\Loginpage.js');
         browser.manage().timeouts().implicitlyWait(20000)
-        browser.ignoreSynchronization=true;
+        browser.ignoreSynchronization = true;
         browser.get(testdata1.url);
         browser.driver.manage().window().maximize();
         obj.username.sendKeys(testdata1.UserId)
@@ -39,11 +40,11 @@ exports.config= {
         obj.loginbutton.click();
         browser.waitForAngular(true);
 
-        var jasmineReporters =require('jasmine-reporters');
+        var jasmineReporters = require('jasmine-reporters');
         jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
-            consolidateAll:true,
-            savePath:'Reports/XML',
-            filePrefix:'xmloutput'
+            consolidateAll: true,
+            savePath: 'Reports/XML',
+            filePrefix: 'xmloutput'
 
         }));
 
@@ -54,13 +55,13 @@ exports.config= {
         });
 
         jasmine.getEnv().addReporter({
-            specDone: function(result) {
+            specDone: function (result) {
                 if (result.status == 'failed') {
                     browser.getCapabilities().then(function (caps) {
                         var browserName = caps.get('browserName');
 
                         browser.takeScreenshot().then(function (png) {
-                            var stream = fs.createWriteStream('./Reports/HTMLReport/Screenshots/' + browserName + '-' + result.fullName+ '.png');
+                            var stream = fs.createWriteStream('./Reports/HTMLReport/Screenshots/' + browserName + '-' + result.fullName + '.png');
                             stream.write(new Buffer(png, 'base64'));
                             stream.end();
                         });
@@ -74,7 +75,7 @@ exports.config= {
         }));
 
         jasmine.getEnv().addReporter(new AllureReporter());
-        jasmine.getEnv().afterEach(function(done){
+        jasmine.getEnv().afterEach(function (done) {
             browser.takeScreenshot().then(function (png) {
                 allure.createAttachment('Screenshot', function () {
                     return new Buffer(png, 'base64')
@@ -84,7 +85,7 @@ exports.config= {
         });
 
     },
-    onComplete: function() {
+    onComplete: function () {
         var browserName, browserVersion;
         var capsPromise = browser.getCapabilities();
 
@@ -110,7 +111,7 @@ exports.config= {
         });
 
         var nodemailer = require("nodemailer");
-        return new Promise(function (fulfill, reject){
+        return new Promise(function (fulfill, reject) {
             var transporter = nodemailer.createTransport({
                 host: "smtp-mail.outlook.com",
                 port: 587,
@@ -120,23 +121,28 @@ exports.config= {
                     pass: 'Decision3'
                 },
                 tls: {
-                    ciphers:'SSLv3'
+                    ciphers: 'SSLv3'
                 }
             });
+            var date=TodaysDate.today;
             var mailOptions = {
                 from: '"Sumant" <sumant.pattanshetti@sapiens.com>', // sender address (who sends)
-                to: 'sumant.pattanshetti@sapiens.com' , // list of receivers (who receives)
-                subject: 'NG Automation Report', // Subject line
+                to: 'sumant.pattanshetti@sapiens.com', // list of receivers (who receives)
+                subject:'NG Automation Report '+date, // Subject line
                 text: 'Hi', // plaintext body
-                html: '<b>Hi Sumant </b><br> This is the E2E Test Excecution Report please find the attachments', // html body
-                attachments:[
+                html: '<b>Hi</b><br> Please find the Test Excecution Report and log files attacted for UseCase1 <br><br> <b>Thanks & Regards,<br>Team NG Automation</b>', // html body
+                attachments: [
                     {
                         'path': './Reports/HTMLReport/ProtractorTestReport.html'
+
+                    },
+                    {
+                        'path': './Logs/Log4js.log'
                     }
                 ]
             };
-            transporter.sendMail(mailOptions, function(error, info){
-                if(error){
+            transporter.sendMail(mailOptions, function (error, info) {
+                if (error) {
                     reject(err);
                 }
                 fulfill(info);

@@ -1,38 +1,109 @@
-[2020-02-23T13:05:24.085] [INFO] things - Canvas page displayed
-[2020-02-23T13:05:46.861] [INFO] things - 1.Entered the text in text box
-[2020-02-23T13:05:48.965] [INFO] things - Clicked Enter button
-[2020-02-23T13:05:52.136] [INFO] things - 1.Entered the text in text box
-[2020-02-23T13:05:54.342] [INFO] things - Clicked Enter button
-[2020-02-23T13:05:57.493] [INFO] things - 1.Entered the text in text box
-[2020-02-23T13:05:59.674] [INFO] things - Clicked Enter button
-[2020-02-23T13:06:03.657] [INFO] things - length of cells2
-[2020-02-23T13:06:04.083] [INFO] things - clicked on the fist element
-[2020-02-23T13:06:05.550] [INFO] things - Keys entered and entered the Enter button  code
-[2020-02-23T13:06:06.216] [INFO] things - Enter button clicked
-[2020-02-23T13:06:06.477] [INFO] things - clicked on the fist element
-[2020-02-23T13:06:07.926] [INFO] things - Keys entered and entered the Enter button  code
-[2020-02-23T13:06:08.623] [INFO] things - Enter button clicked
-[2020-02-23T13:06:10.150] [INFO] things - Right click Succesfull
-[2020-02-23T13:06:10.152] [INFO] things - Created diagonal elements
-[2020-02-23T13:06:18.066] [INFO] things - Clicked on conclusion cell
-[2020-02-23T13:06:20.373] [INFO] things - Keys Entered in Conclusion cell
-[2020-02-23T13:06:20.374] [INFO] things - Enter button clicked after conclusion
-[2020-02-23T13:06:20.991] [INFO] things - Clicked on conclusion cell
-[2020-02-23T13:06:23.448] [INFO] things - Keys Entered in Conclusion cell
-[2020-02-23T13:06:23.450] [INFO] things - Enter button clicked after conclusion
-[2020-02-23T13:06:23.968] [INFO] things - Clicked on conclusion cell
-[2020-02-23T13:06:26.376] [INFO] things - Keys Entered in Conclusion cell
-[2020-02-23T13:06:26.377] [INFO] things - Enter button clicked after conclusion
-[2020-02-23T13:06:28.037] [INFO] things - clicked on the Validation icon
-[2020-02-23T13:06:29.223] [INFO] things - clicked on validation play icon
-[2020-02-23T13:06:33.213] [INFO] things - Validation message isThis Rule Family is valid.
-[2020-02-23T13:06:39.363] [INFO] things - clicked on Testing
-[2020-02-23T13:06:39.456] [INFO] things - length of cells2
-[2020-02-23T13:06:48.400] [INFO] things - RFV Testing Results= eligible
-[2020-02-23T13:06:49.415] [INFO] things - Navigated back to DV
-[2020-02-23T13:06:51.136] [INFO] things - clicked on the Validation icon
-[2020-02-23T13:06:52.334] [INFO] things - clicked on validation play icon
-[2020-02-23T13:06:53.115] [INFO] things - Validation message isThis Decision is valid.
-[2020-02-23T13:06:58.824] [INFO] things - clicked on Testing
-[2020-02-23T13:06:58.881] [INFO] things - length of cells2
-[2020-02-23T13:07:02.044] [INFO] things - DV Testing Results= eligible
+[2020-02-24T17:03:28.424] [INFO] things - Clicked on task tab
+[2020-02-24T17:03:34.518] [INFO] things - Task has been seleceted
+[2020-02-24T17:03:55.209] [INFO] things - Facttype Tab Clicked
+[2020-02-24T17:04:16.205] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:04:57.217] [ERROR] things - No element found using locator: By(xpath, //*[@name='name']) NoSuchElementError: No element found using locator: By(xpath, //*[@name='name'])
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+    at ManagedPromise.invokeCallback_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.<computed> [as sendKeys] (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.<computed> [as sendKeys] (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\CreateNewFTspec.js:60:39)
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27) {
+  name: 'NoSuchElementError',
+  remoteStacktrace: ''
+}
+[2020-02-24T17:04:57.816] [INFO] things - Clicked on Ok button
+[2020-02-24T17:04:58.253] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:06:05.129] [INFO] things - Clicked on task tab
+[2020-02-24T17:06:07.684] [INFO] things - Task has been seleceted
+[2020-02-24T17:06:28.506] [INFO] things - Facttype Tab Clicked
+[2020-02-24T17:06:37.446] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:07:20.682] [INFO] things - Clicked on task tab
+[2020-02-24T17:07:29.063] [INFO] things - Task has been seleceted
+[2020-02-24T17:07:29.924] [INFO] things - Facttype Tab Clicked
+[2020-02-24T17:07:30.838] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:07:34.301] [INFO] things - Entered FT name
+[2020-02-24T17:07:36.657] [INFO] things - Clicked on Ok button
+[2020-02-24T17:07:40.132] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:07:42.671] [INFO] things - Entered FT name
+[2020-02-24T17:07:45.072] [INFO] things - Selected Multivalue button
+[2020-02-24T17:07:45.633] [INFO] things - Clicked on Ok button
+[2020-02-24T17:07:49.085] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:07:52.023] [INFO] things - Entered FT name
+[2020-02-24T17:07:53.413] [INFO] things - cleared textarea
+[2020-02-24T17:07:54.100] [INFO] things - Clicked on Dropdowwn
+[2020-02-24T17:07:55.215] [INFO] things - Yes ! Found option is:Numeric
+[2020-02-24T17:07:56.467] [INFO] things - Yes ! Found option is:Regular set
+[2020-02-24T17:07:56.733] [INFO] things - 1
+[2020-02-24T17:08:03.040] [INFO] things - Clicked on Ok button
+[2020-02-24T17:24:14.294] [INFO] things - undefined
+[2020-02-24T17:24:14.305] [ERROR] things - Cannot read property 'then' of undefined TypeError: Cannot read property 'then' of undefined
+    at UserContext.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\Date print.js:23:30)
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-02-24T17:27:40.445] [INFO] things - 2020-02-24
+[2020-02-24T17:27:40.457] [ERROR] things - TodaysDate.today.then is not a function TypeError: TodaysDate.today.then is not a function
+    at UserContext.<anonymous> (C:\Users\sumant.pattanshetti\WebstormProjects\NG_Automation1\Tests\Date print.js:23:30)
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\sumant.pattanshetti\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2020-02-24T17:37:12.865] [INFO] things - Clicked on task tab
+[2020-02-24T17:37:20.706] [INFO] things - Task has been seleceted
+[2020-02-24T17:37:21.180] [INFO] things - Facttype Tab Clicked
+[2020-02-24T17:37:21.943] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:37:42.889] [INFO] things - Entered FT name
+[2020-02-24T17:37:45.583] [INFO] things - Clicked on Ok button
+[2020-02-24T17:37:49.409] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:37:53.227] [INFO] things - Entered FT name
+[2020-02-24T17:37:55.576] [INFO] things - Selected Multivalue button
+[2020-02-24T17:37:56.199] [INFO] things - Clicked on Ok button
+[2020-02-24T17:37:59.686] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:38:02.435] [INFO] things - Entered FT name
+[2020-02-24T17:38:03.822] [INFO] things - cleared textarea
+[2020-02-24T17:38:04.664] [INFO] things - Clicked on Dropdowwn
+[2020-02-24T17:38:05.832] [INFO] things - Yes ! Found option is:Numeric
+[2020-02-24T17:38:07.309] [INFO] things - Yes ! Found option is:Regular set
+[2020-02-24T17:38:07.772] [INFO] things - 1
+[2020-02-24T17:38:14.233] [INFO] things - Clicked on Ok button
+[2020-02-24T17:44:48.042] [INFO] things - Clicked on task tab
+[2020-02-24T17:44:51.053] [INFO] things - Task has been seleceted
+[2020-02-24T17:44:51.876] [INFO] things - Facttype Tab Clicked
+[2020-02-24T17:44:52.666] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:44:57.430] [INFO] things - Entered FT name
+[2020-02-24T17:44:59.761] [INFO] things - Clicked on Ok button
+[2020-02-24T17:45:03.334] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:45:07.484] [INFO] things - Entered FT name
+[2020-02-24T17:45:09.796] [INFO] things - Selected Multivalue button
+[2020-02-24T17:45:10.328] [INFO] things - Clicked on Ok button
+[2020-02-24T17:45:13.817] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T17:45:18.834] [INFO] things - Entered FT name
+[2020-02-24T17:45:20.218] [INFO] things - cleared textarea
+[2020-02-24T17:45:21.070] [INFO] things - Clicked on Dropdowwn
+[2020-02-24T17:45:22.459] [INFO] things - Yes ! Found option is:Numeric
+[2020-02-24T17:45:23.625] [INFO] things - Yes ! Found option is:Regular set
+[2020-02-24T17:45:23.997] [INFO] things - 1
+[2020-02-24T17:45:30.611] [INFO] things - Clicked on Ok button
