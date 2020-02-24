@@ -127,7 +127,7 @@ exports.config = {
             var date=TodaysDate.today;
             var mailOptions = {
                 from: '"Sumant" <sumant.pattanshetti@sapiens.com>', // sender address (who sends)
-                to: 'sumant.pattanshetti@sapiens.com', // list of receivers (who receives)
+                to: 'sumant.pattanshetti@sapiens.com,Rafael.Goldberg@sapiens.com,charlie.hayes@sapiens.com,Michal.Shitrit@sapiens.com,Ritu.Thakur@sapiens.com,Kedar.Kulkarni@sapiens.com,Nareshkumar.Hegde@sapiens.com,Uriel.Twito@sapiens.com,Moshe.Robinov@sapiens.com', // list of receivers (who receives)
                 subject:'NG Automation Report '+date, // Subject line
                 text: 'Hi', // plaintext body
                 html: '<b>Hi</b><br> Please find the Test Excecution Report and log files attacted for UseCase1 <br><br> <b>Thanks & Regards,<br>Team NG Automation</b>', // html body

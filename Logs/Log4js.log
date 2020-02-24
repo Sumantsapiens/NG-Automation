@@ -1,18 +1,18 @@
-[2020-02-24T17:44:48.042] [INFO] things - Clicked on task tab
-[2020-02-24T17:44:51.053] [INFO] things - Task has been seleceted
-[2020-02-24T17:44:51.876] [INFO] things - Facttype Tab Clicked
-[2020-02-24T17:44:52.666] [INFO] things - Clicked on Create New FT Button
-[2020-02-24T17:44:57.430] [INFO] things - Entered FT name
-[2020-02-24T17:44:59.761] [INFO] things - Clicked on Ok button
-[2020-02-24T17:45:03.334] [INFO] things - Clicked on Create New FT Button
-[2020-02-24T17:45:07.484] [INFO] things - Entered FT name
-[2020-02-24T17:45:09.796] [INFO] things - Selected Multivalue button
-[2020-02-24T17:45:10.328] [INFO] things - Clicked on Ok button
-[2020-02-24T17:45:13.817] [INFO] things - Clicked on Create New FT Button
-[2020-02-24T17:45:18.834] [INFO] things - Entered FT name
-[2020-02-24T17:45:20.218] [INFO] things - cleared textarea
-[2020-02-24T17:45:21.070] [INFO] things - Clicked on Dropdowwn
-[2020-02-24T17:45:22.459] [INFO] things - Yes ! Found option is:Numeric
-[2020-02-24T17:45:23.625] [INFO] things - Yes ! Found option is:Regular set
-[2020-02-24T17:45:23.997] [INFO] things - 1
-[2020-02-24T17:45:30.611] [INFO] things - Clicked on Ok button
+[2020-02-24T18:25:08.632] [INFO] things - Clicked on task tab
+[2020-02-24T18:25:11.577] [INFO] things - Task has been seleceted
+[2020-02-24T18:25:12.516] [INFO] things - Facttype Tab Clicked
+[2020-02-24T18:25:13.138] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T18:25:16.171] [INFO] things - Entered FT name
+[2020-02-24T18:25:18.593] [INFO] things - Clicked on Ok button
+[2020-02-24T18:25:22.151] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T18:25:24.875] [INFO] things - Entered FT name
+[2020-02-24T18:25:27.187] [INFO] things - Selected Multivalue button
+[2020-02-24T18:25:27.736] [INFO] things - Clicked on Ok button
+[2020-02-24T18:25:31.427] [INFO] things - Clicked on Create New FT Button
+[2020-02-24T18:25:34.600] [INFO] things - Entered FT name
+[2020-02-24T18:25:35.976] [INFO] things - cleared textarea
+[2020-02-24T18:25:36.716] [INFO] things - Clicked on Dropdowwn
+[2020-02-24T18:25:43.065] [INFO] things - Yes ! Found option is:Numeric
+[2020-02-24T18:25:44.282] [INFO] things - Yes ! Found option is:Regular set
+[2020-02-24T18:25:44.475] [INFO] things - 1
+[2020-02-24T18:25:50.123] [INFO] things - Clicked on Ok button

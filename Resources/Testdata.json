@@ -8,10 +8,10 @@
   "FT1": "FT101",
   "FT2": "FT102",
   "FT3": "FT103",
-  "Conditions": "TestCond",
-  "Conclusions1": "eligible",
-  "Conclusion2": "eligible",
-  "TestValues": "TestCond",
+  "Conditions": "Test1",
+  "Conclusions1": "Eligible",
+  "Conclusion2": "Not Eligible",
+  "TestValues": "Test1",
   "SingleFT": "00112",
   "MultipleFT": "909"
 }
