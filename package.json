@@ -16,7 +16,7 @@
     "jasmine-spec-reporter": "4.2.1",
     "log4js": "6.1.0",
     "module": "1.2.5",
-    "nodemailer": "^6.4.2",
+    "nodemailer": "^6.4.16",
     "protractor": "^5.4.3",
     "protractor-html-reporter-2": "1.0.4",
     "selenium-webdriver": "^4.0.0-alpha.5",
